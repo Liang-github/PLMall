@@ -40,6 +40,10 @@
 		769EF77C1F32FF1F00F0BD37 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 769EF77B1F32FF1F00F0BD37 /* BaseNavigationController.m */; };
 		769EF77F1F32FF4A00F0BD37 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 769EF77E1F32FF4A00F0BD37 /* BaseTabBarController.m */; };
 		769EF8751F33065B00F0BD37 /* PingFang Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 769EF8741F33065B00F0BD37 /* PingFang Medium.ttf */; };
+		769EF87F1F330E2D00F0BD37 /* UIBarButtonItem+PLBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 769EF87E1F330E2D00F0BD37 /* UIBarButtonItem+PLBarButtonItem.m */; };
+		769EF8821F33137900F0BD37 /* UIImage+PLCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 769EF8811F33137900F0BD37 /* UIImage+PLCircle.m */; };
+		769EF8851F3316C100F0BD37 /* UIImageView+PLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 769EF8841F3316C100F0BD37 /* UIImageView+PLExtension.m */; };
+		769EF8881F3317DE00F0BD37 /* UIView+PLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 769EF8871F3317DE00F0BD37 /* UIView+PLExtension.m */; };
 		DF267FDA7ACCBA8ED852A64E /* libPods-PLMallTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6292AF6760BCA2D5590F1C6 /* libPods-PLMallTests.a */; };
 /* End PBXBuildFile section */
 
@@ -106,6 +110,14 @@
 		769EF77E1F32FF4A00F0BD37 /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
 		769EF8741F33065B00F0BD37 /* PingFang Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PingFang Medium.ttf"; sourceTree = "<group>"; };
 		769EF8761F33066B00F0BD37 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		769EF87D1F330E2D00F0BD37 /* UIBarButtonItem+PLBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+PLBarButtonItem.h"; sourceTree = "<group>"; };
+		769EF87E1F330E2D00F0BD37 /* UIBarButtonItem+PLBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+PLBarButtonItem.m"; sourceTree = "<group>"; };
+		769EF8801F33137900F0BD37 /* UIImage+PLCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PLCircle.h"; sourceTree = "<group>"; };
+		769EF8811F33137900F0BD37 /* UIImage+PLCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PLCircle.m"; sourceTree = "<group>"; };
+		769EF8831F3316C100F0BD37 /* UIImageView+PLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+PLExtension.h"; sourceTree = "<group>"; };
+		769EF8841F3316C100F0BD37 /* UIImageView+PLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+PLExtension.m"; sourceTree = "<group>"; };
+		769EF8861F3317DE00F0BD37 /* UIView+PLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PLExtension.h"; sourceTree = "<group>"; };
+		769EF8871F3317DE00F0BD37 /* UIView+PLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PLExtension.m"; sourceTree = "<group>"; };
 		7883AB62B1BE15903AB4AF60 /* Pods-PLMallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLMallTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PLMallTests/Pods-PLMallTests.debug.xcconfig"; sourceTree = "<group>"; };
 		94391A5BE84EAD0F6D5AFA60 /* libPods-PLMallUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PLMallUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99220AC15374788F53EA66CF /* Pods-PLMallUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLMallUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PLMallUITests/Pods-PLMallUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -169,6 +181,7 @@
 			children = (
 				769EF7791F32FE9300F0BD37 /* Main */,
 				769EF7091F32F9C800F0BD37 /* AppDelegate */,
+				769EF87B1F330D9600F0BD37 /* Expand */,
 				769EF7491F32FA7700F0BD37 /* Resource */,
 				769EF6D41F32F1FD00F0BD37 /* Supporting Files */,
 			);
@@ -294,6 +307,29 @@
 				769EF77E1F32FF4A00F0BD37 /* BaseTabBarController.m */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		769EF87B1F330D9600F0BD37 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				769EF87C1F330DC400F0BD37 /* Category */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		769EF87C1F330DC400F0BD37 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				769EF87D1F330E2D00F0BD37 /* UIBarButtonItem+PLBarButtonItem.h */,
+				769EF87E1F330E2D00F0BD37 /* UIBarButtonItem+PLBarButtonItem.m */,
+				769EF8801F33137900F0BD37 /* UIImage+PLCircle.h */,
+				769EF8811F33137900F0BD37 /* UIImage+PLCircle.m */,
+				769EF8831F3316C100F0BD37 /* UIImageView+PLExtension.h */,
+				769EF8841F3316C100F0BD37 /* UIImageView+PLExtension.m */,
+				769EF8861F3317DE00F0BD37 /* UIView+PLExtension.h */,
+				769EF8871F3317DE00F0BD37 /* UIView+PLExtension.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 		85D921C81A04020FE73FC8A3 /* Pods */ = {
@@ -622,9 +658,13 @@
 			files = (
 				769EF77F1F32FF4A00F0BD37 /* BaseTabBarController.m in Sources */,
 				769EF77C1F32FF1F00F0BD37 /* BaseNavigationController.m in Sources */,
+				769EF8881F3317DE00F0BD37 /* UIView+PLExtension.m in Sources */,
 				769EF6DC1F32F1FD00F0BD37 /* ViewController.m in Sources */,
+				769EF8821F33137900F0BD37 /* UIImage+PLCircle.m in Sources */,
+				769EF8851F3316C100F0BD37 /* UIImageView+PLExtension.m in Sources */,
 				769EF6D91F32F1FD00F0BD37 /* AppDelegate.m in Sources */,
 				769EF6D61F32F1FD00F0BD37 /* main.m in Sources */,
+				769EF87F1F330E2D00F0BD37 /* UIBarButtonItem+PLBarButtonItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
