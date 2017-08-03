@@ -37,6 +37,9 @@
 		769EF7751F32FA7700F0BD37 /* GoodsGrid.plist in Resources */ = {isa = PBXBuildFile; fileRef = 769EF7611F32FA7700F0BD37 /* GoodsGrid.plist */; };
 		769EF7761F32FA7700F0BD37 /* HomeHighGoods.plist in Resources */ = {isa = PBXBuildFile; fileRef = 769EF7621F32FA7700F0BD37 /* HomeHighGoods.plist */; };
 		769EF7781F32FAD400F0BD37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 769EF7771F32FAD400F0BD37 /* Assets.xcassets */; };
+		769EF77C1F32FF1F00F0BD37 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 769EF77B1F32FF1F00F0BD37 /* BaseNavigationController.m */; };
+		769EF77F1F32FF4A00F0BD37 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 769EF77E1F32FF4A00F0BD37 /* BaseTabBarController.m */; };
+		769EF8751F33065B00F0BD37 /* PingFang Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 769EF8741F33065B00F0BD37 /* PingFang Medium.ttf */; };
 		DF267FDA7ACCBA8ED852A64E /* libPods-PLMallTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6292AF6760BCA2D5590F1C6 /* libPods-PLMallTests.a */; };
 /* End PBXBuildFile section */
 
@@ -97,6 +100,12 @@
 		769EF7611F32FA7700F0BD37 /* GoodsGrid.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GoodsGrid.plist; sourceTree = "<group>"; };
 		769EF7621F32FA7700F0BD37 /* HomeHighGoods.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HomeHighGoods.plist; sourceTree = "<group>"; };
 		769EF7771F32FAD400F0BD37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		769EF77A1F32FF1F00F0BD37 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		769EF77B1F32FF1F00F0BD37 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		769EF77D1F32FF4A00F0BD37 /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		769EF77E1F32FF4A00F0BD37 /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		769EF8741F33065B00F0BD37 /* PingFang Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PingFang Medium.ttf"; sourceTree = "<group>"; };
+		769EF8761F33066B00F0BD37 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		7883AB62B1BE15903AB4AF60 /* Pods-PLMallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLMallTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PLMallTests/Pods-PLMallTests.debug.xcconfig"; sourceTree = "<group>"; };
 		94391A5BE84EAD0F6D5AFA60 /* libPods-PLMallUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PLMallUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99220AC15374788F53EA66CF /* Pods-PLMallUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLMallUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PLMallUITests/Pods-PLMallUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -158,6 +167,7 @@
 		769EF6D31F32F1FD00F0BD37 /* PLMall */ = {
 			isa = PBXGroup;
 			children = (
+				769EF7791F32FE9300F0BD37 /* Main */,
 				769EF7091F32F9C800F0BD37 /* AppDelegate */,
 				769EF7491F32FA7700F0BD37 /* Resource */,
 				769EF6D41F32F1FD00F0BD37 /* Supporting Files */,
@@ -168,6 +178,8 @@
 		769EF6D41F32F1FD00F0BD37 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				769EF8741F33065B00F0BD37 /* PingFang Medium.ttf */,
+				769EF8761F33066B00F0BD37 /* PrefixHeader.pch */,
 				769EF7771F32FAD400F0BD37 /* Assets.xcassets */,
 				769EF6DD1F32F1FD00F0BD37 /* Main.storyboard */,
 				769EF6E21F32F1FD00F0BD37 /* LaunchScreen.storyboard */,
@@ -271,6 +283,17 @@
 				769EF7621F32FA7700F0BD37 /* HomeHighGoods.plist */,
 			);
 			path = "首页Plist";
+			sourceTree = "<group>";
+		};
+		769EF7791F32FE9300F0BD37 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				769EF77A1F32FF1F00F0BD37 /* BaseNavigationController.h */,
+				769EF77B1F32FF1F00F0BD37 /* BaseNavigationController.m */,
+				769EF77D1F32FF4A00F0BD37 /* BaseTabBarController.h */,
+				769EF77E1F32FF4A00F0BD37 /* BaseTabBarController.m */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 		85D921C81A04020FE73FC8A3 /* Pods */ = {
@@ -433,6 +456,7 @@
 				769EF7681F32FA7700F0BD37 /* DetailRecommend.plist in Resources */,
 				769EF76B1F32FA7700F0BD37 /* shareTerrace.plist in Resources */,
 				769EF6DF1F32F1FD00F0BD37 /* Main.storyboard in Resources */,
+				769EF8751F33065B00F0BD37 /* PingFang Medium.ttf in Resources */,
 				769EF7661F32FA7700F0BD37 /* ClassiftyGoods03.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -596,6 +620,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				769EF77F1F32FF4A00F0BD37 /* BaseTabBarController.m in Sources */,
+				769EF77C1F32FF1F00F0BD37 /* BaseNavigationController.m in Sources */,
 				769EF6DC1F32F1FD00F0BD37 /* ViewController.m in Sources */,
 				769EF6D91F32F1FD00F0BD37 /* AppDelegate.m in Sources */,
 				769EF6D61F32F1FD00F0BD37 /* main.m in Sources */,
@@ -748,6 +774,7 @@
 			baseConfigurationReference = 2A52D9D92717F1E4B711FB6C /* Pods-PLMall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = PLMall/PrefixHeader.pch;
 				INFOPLIST_FILE = PLMall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PL.PLMall;
@@ -760,6 +787,7 @@
 			baseConfigurationReference = AD514271011DE889714A1287 /* Pods-PLMall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = PLMall/PrefixHeader.pch;
 				INFOPLIST_FILE = PLMall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PL.PLMall;
