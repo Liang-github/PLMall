@@ -7,14 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		088A87384873462763B37960 /* libPods-PLMallUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94391A5BE84EAD0F6D5AFA60 /* libPods-PLMallUITests.a */; };
+		2366902420479C42FA28B34F /* libPods-PLMall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 299DB607E579D94750BE6563 /* libPods-PLMall.a */; };
 		769EF6D61F32F1FD00F0BD37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 769EF6D51F32F1FD00F0BD37 /* main.m */; };
 		769EF6D91F32F1FD00F0BD37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 769EF6D81F32F1FD00F0BD37 /* AppDelegate.m */; };
 		769EF6DC1F32F1FD00F0BD37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 769EF6DB1F32F1FD00F0BD37 /* ViewController.m */; };
 		769EF6DF1F32F1FD00F0BD37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 769EF6DD1F32F1FD00F0BD37 /* Main.storyboard */; };
-		769EF6E11F32F1FD00F0BD37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 769EF6E01F32F1FD00F0BD37 /* Assets.xcassets */; };
 		769EF6E41F32F1FD00F0BD37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 769EF6E21F32F1FD00F0BD37 /* LaunchScreen.storyboard */; };
 		769EF6EF1F32F1FD00F0BD37 /* PLMallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 769EF6EE1F32F1FD00F0BD37 /* PLMallTests.m */; };
 		769EF6FA1F32F1FD00F0BD37 /* PLMallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 769EF6F91F32F1FD00F0BD37 /* PLMallUITests.m */; };
+		769EF7631F32FA7700F0BD37 /* ClasiftyGoods.plist in Resources */ = {isa = PBXBuildFile; fileRef = 769EF74C1F32FA7700F0BD37 /* ClasiftyGoods.plist */; };
+		769EF7641F32FA7700F0BD37 /* ClassiftyGoods01.plist in Resources */ = {isa = PBXBuildFile; fileRef = 769EF74D1F32FA7700F0BD37 /* ClassiftyGoods01.plist */; };
+		769EF7651F32FA7700F0BD37 /* ClassiftyGoods02.plist in Resources */ = {isa = PBXBuildFile; fileRef = 769EF74E1F32FA7700F0BD37 /* ClassiftyGoods02.plist */; };
+		769EF7661F32FA7700F0BD37 /* ClassiftyGoods03.plist in Resources */ = {isa = PBXBuildFile; fileRef = 769EF74F1F32FA7700F0BD37 /* ClassiftyGoods03.plist */; };
+		769EF7671F32FA7700F0BD37 /* ClassifyTitles.plist in Resources */ = {isa = PBXBuildFile; fileRef = 769EF7501F32FA7700F0BD37 /* ClassifyTitles.plist */; };
+		769EF7681F32FA7700F0BD37 /* DetailRecommend.plist in Resources */ = {isa = PBXBuildFile; fileRef = 769EF7511F32FA7700F0BD37 /* DetailRecommend.plist */; };
+		769EF7691F32FA7700F0BD37 /* FiltrateItem.plist in Resources */ = {isa = PBXBuildFile; fileRef = 769EF7521F32FA7700F0BD37 /* FiltrateItem.plist */; };
+		769EF76A1F32FA7700F0BD37 /* FootprintGoods.plist in Resources */ = {isa = PBXBuildFile; fileRef = 769EF7531F32FA7700F0BD37 /* FootprintGoods.plist */; };
+		769EF76B1F32FA7700F0BD37 /* shareTerrace.plist in Resources */ = {isa = PBXBuildFile; fileRef = 769EF7541F32FA7700F0BD37 /* shareTerrace.plist */; };
+		769EF76C1F32FA7700F0BD37 /* ShopItem.plist in Resources */ = {isa = PBXBuildFile; fileRef = 769EF7551F32FA7700F0BD37 /* ShopItem.plist */; };
+		769EF76D1F32FA7700F0BD37 /* CommentPic.plist in Resources */ = {isa = PBXBuildFile; fileRef = 769EF7571F32FA7700F0BD37 /* CommentPic.plist */; };
+		769EF76E1F32FA7700F0BD37 /* DeliveryAdress.plist in Resources */ = {isa = PBXBuildFile; fileRef = 769EF7581F32FA7700F0BD37 /* DeliveryAdress.plist */; };
+		769EF76F1F32FA7700F0BD37 /* MessageNote.plist in Resources */ = {isa = PBXBuildFile; fileRef = 769EF7591F32FA7700F0BD37 /* MessageNote.plist */; };
+		769EF7701F32FA7700F0BD37 /* MyBuyFlow.plist in Resources */ = {isa = PBXBuildFile; fileRef = 769EF75A1F32FA7700F0BD37 /* MyBuyFlow.plist */; };
+		769EF7711F32FA7700F0BD37 /* MyRecreationFlow.plist in Resources */ = {isa = PBXBuildFile; fileRef = 769EF75B1F32FA7700F0BD37 /* MyRecreationFlow.plist */; };
+		769EF7721F32FA7700F0BD37 /* YouLikeGoods.plist in Resources */ = {isa = PBXBuildFile; fileRef = 769EF75C1F32FA7700F0BD37 /* YouLikeGoods.plist */; };
+		769EF7731F32FA7700F0BD37 /* RecommendShop.plist in Resources */ = {isa = PBXBuildFile; fileRef = 769EF75E1F32FA7700F0BD37 /* RecommendShop.plist */; };
+		769EF7741F32FA7700F0BD37 /* CountDownShop.plist in Resources */ = {isa = PBXBuildFile; fileRef = 769EF7601F32FA7700F0BD37 /* CountDownShop.plist */; };
+		769EF7751F32FA7700F0BD37 /* GoodsGrid.plist in Resources */ = {isa = PBXBuildFile; fileRef = 769EF7611F32FA7700F0BD37 /* GoodsGrid.plist */; };
+		769EF7761F32FA7700F0BD37 /* HomeHighGoods.plist in Resources */ = {isa = PBXBuildFile; fileRef = 769EF7621F32FA7700F0BD37 /* HomeHighGoods.plist */; };
+		769EF7781F32FAD400F0BD37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 769EF7771F32FAD400F0BD37 /* Assets.xcassets */; };
+		DF267FDA7ACCBA8ED852A64E /* libPods-PLMallTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6292AF6760BCA2D5590F1C6 /* libPods-PLMallTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +58,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		299DB607E579D94750BE6563 /* libPods-PLMall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PLMall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A52D9D92717F1E4B711FB6C /* Pods-PLMall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLMall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PLMall/Pods-PLMall.debug.xcconfig"; sourceTree = "<group>"; };
+		32D3C8DBEA386308DD3A7AAF /* Pods-PLMallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLMallTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PLMallTests/Pods-PLMallTests.release.xcconfig"; sourceTree = "<group>"; };
 		769EF6D11F32F1FD00F0BD37 /* PLMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PLMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		769EF6D51F32F1FD00F0BD37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		769EF6D71F32F1FD00F0BD37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,7 +68,6 @@
 		769EF6DA1F32F1FD00F0BD37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		769EF6DB1F32F1FD00F0BD37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		769EF6DE1F32F1FD00F0BD37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		769EF6E01F32F1FD00F0BD37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		769EF6E31F32F1FD00F0BD37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		769EF6E51F32F1FD00F0BD37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		769EF6EA1F32F1FD00F0BD37 /* PLMallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PLMallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +76,33 @@
 		769EF6F51F32F1FD00F0BD37 /* PLMallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PLMallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		769EF6F91F32F1FD00F0BD37 /* PLMallUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLMallUITests.m; sourceTree = "<group>"; };
 		769EF6FB1F32F1FD00F0BD37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		769EF74C1F32FA7700F0BD37 /* ClasiftyGoods.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ClasiftyGoods.plist; sourceTree = "<group>"; };
+		769EF74D1F32FA7700F0BD37 /* ClassiftyGoods01.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ClassiftyGoods01.plist; sourceTree = "<group>"; };
+		769EF74E1F32FA7700F0BD37 /* ClassiftyGoods02.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ClassiftyGoods02.plist; sourceTree = "<group>"; };
+		769EF74F1F32FA7700F0BD37 /* ClassiftyGoods03.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ClassiftyGoods03.plist; sourceTree = "<group>"; };
+		769EF7501F32FA7700F0BD37 /* ClassifyTitles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ClassifyTitles.plist; sourceTree = "<group>"; };
+		769EF7511F32FA7700F0BD37 /* DetailRecommend.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DetailRecommend.plist; sourceTree = "<group>"; };
+		769EF7521F32FA7700F0BD37 /* FiltrateItem.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FiltrateItem.plist; sourceTree = "<group>"; };
+		769EF7531F32FA7700F0BD37 /* FootprintGoods.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FootprintGoods.plist; sourceTree = "<group>"; };
+		769EF7541F32FA7700F0BD37 /* shareTerrace.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shareTerrace.plist; sourceTree = "<group>"; };
+		769EF7551F32FA7700F0BD37 /* ShopItem.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ShopItem.plist; sourceTree = "<group>"; };
+		769EF7571F32FA7700F0BD37 /* CommentPic.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CommentPic.plist; sourceTree = "<group>"; };
+		769EF7581F32FA7700F0BD37 /* DeliveryAdress.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DeliveryAdress.plist; sourceTree = "<group>"; };
+		769EF7591F32FA7700F0BD37 /* MessageNote.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MessageNote.plist; sourceTree = "<group>"; };
+		769EF75A1F32FA7700F0BD37 /* MyBuyFlow.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MyBuyFlow.plist; sourceTree = "<group>"; };
+		769EF75B1F32FA7700F0BD37 /* MyRecreationFlow.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MyRecreationFlow.plist; sourceTree = "<group>"; };
+		769EF75C1F32FA7700F0BD37 /* YouLikeGoods.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = YouLikeGoods.plist; sourceTree = "<group>"; };
+		769EF75E1F32FA7700F0BD37 /* RecommendShop.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RecommendShop.plist; sourceTree = "<group>"; };
+		769EF7601F32FA7700F0BD37 /* CountDownShop.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CountDownShop.plist; sourceTree = "<group>"; };
+		769EF7611F32FA7700F0BD37 /* GoodsGrid.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GoodsGrid.plist; sourceTree = "<group>"; };
+		769EF7621F32FA7700F0BD37 /* HomeHighGoods.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HomeHighGoods.plist; sourceTree = "<group>"; };
+		769EF7771F32FAD400F0BD37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7883AB62B1BE15903AB4AF60 /* Pods-PLMallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLMallTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PLMallTests/Pods-PLMallTests.debug.xcconfig"; sourceTree = "<group>"; };
+		94391A5BE84EAD0F6D5AFA60 /* libPods-PLMallUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PLMallUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99220AC15374788F53EA66CF /* Pods-PLMallUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLMallUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PLMallUITests/Pods-PLMallUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD514271011DE889714A1287 /* Pods-PLMall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLMall.release.xcconfig"; path = "Pods/Target Support Files/Pods-PLMall/Pods-PLMall.release.xcconfig"; sourceTree = "<group>"; };
+		D6292AF6760BCA2D5590F1C6 /* libPods-PLMallTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PLMallTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66DF9B8E2A2777FC9E543E0 /* Pods-PLMallUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLMallUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PLMallUITests/Pods-PLMallUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2366902420479C42FA28B34F /* libPods-PLMall.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF267FDA7ACCBA8ED852A64E /* libPods-PLMallTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				088A87384873462763B37960 /* libPods-PLMallUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +140,8 @@
 				769EF6ED1F32F1FD00F0BD37 /* PLMallTests */,
 				769EF6F81F32F1FD00F0BD37 /* PLMallUITests */,
 				769EF6D21F32F1FD00F0BD37 /* Products */,
+				85D921C81A04020FE73FC8A3 /* Pods */,
+				F8DD6B09C7ECCF4C97CB14BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +158,8 @@
 		769EF6D31F32F1FD00F0BD37 /* PLMall */ = {
 			isa = PBXGroup;
 			children = (
-				769EF6D71F32F1FD00F0BD37 /* AppDelegate.h */,
-				769EF6D81F32F1FD00F0BD37 /* AppDelegate.m */,
-				769EF6DA1F32F1FD00F0BD37 /* ViewController.h */,
-				769EF6DB1F32F1FD00F0BD37 /* ViewController.m */,
-				769EF6DD1F32F1FD00F0BD37 /* Main.storyboard */,
-				769EF6E01F32F1FD00F0BD37 /* Assets.xcassets */,
-				769EF6E21F32F1FD00F0BD37 /* LaunchScreen.storyboard */,
-				769EF6E51F32F1FD00F0BD37 /* Info.plist */,
+				769EF7091F32F9C800F0BD37 /* AppDelegate */,
+				769EF7491F32FA7700F0BD37 /* Resource */,
 				769EF6D41F32F1FD00F0BD37 /* Supporting Files */,
 			);
 			path = PLMall;
@@ -117,6 +168,10 @@
 		769EF6D41F32F1FD00F0BD37 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				769EF7771F32FAD400F0BD37 /* Assets.xcassets */,
+				769EF6DD1F32F1FD00F0BD37 /* Main.storyboard */,
+				769EF6E21F32F1FD00F0BD37 /* LaunchScreen.storyboard */,
+				769EF6E51F32F1FD00F0BD37 /* Info.plist */,
 				769EF6D51F32F1FD00F0BD37 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +195,107 @@
 			path = PLMallUITests;
 			sourceTree = "<group>";
 		};
+		769EF7091F32F9C800F0BD37 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				769EF6D71F32F1FD00F0BD37 /* AppDelegate.h */,
+				769EF6D81F32F1FD00F0BD37 /* AppDelegate.m */,
+				769EF6DA1F32F1FD00F0BD37 /* ViewController.h */,
+				769EF6DB1F32F1FD00F0BD37 /* ViewController.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		769EF7491F32FA7700F0BD37 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				769EF74A1F32FA7700F0BD37 /* Plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		769EF74A1F32FA7700F0BD37 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				769EF74B1F32FA7700F0BD37 /* 分类Plist */,
+				769EF7561F32FA7700F0BD37 /* 我的Plist */,
+				769EF75D1F32FA7700F0BD37 /* 购物车Plist */,
+				769EF75F1F32FA7700F0BD37 /* 首页Plist */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		769EF74B1F32FA7700F0BD37 /* 分类Plist */ = {
+			isa = PBXGroup;
+			children = (
+				769EF74C1F32FA7700F0BD37 /* ClasiftyGoods.plist */,
+				769EF74D1F32FA7700F0BD37 /* ClassiftyGoods01.plist */,
+				769EF74E1F32FA7700F0BD37 /* ClassiftyGoods02.plist */,
+				769EF74F1F32FA7700F0BD37 /* ClassiftyGoods03.plist */,
+				769EF7501F32FA7700F0BD37 /* ClassifyTitles.plist */,
+				769EF7511F32FA7700F0BD37 /* DetailRecommend.plist */,
+				769EF7521F32FA7700F0BD37 /* FiltrateItem.plist */,
+				769EF7531F32FA7700F0BD37 /* FootprintGoods.plist */,
+				769EF7541F32FA7700F0BD37 /* shareTerrace.plist */,
+				769EF7551F32FA7700F0BD37 /* ShopItem.plist */,
+			);
+			path = "分类Plist";
+			sourceTree = "<group>";
+		};
+		769EF7561F32FA7700F0BD37 /* 我的Plist */ = {
+			isa = PBXGroup;
+			children = (
+				769EF7571F32FA7700F0BD37 /* CommentPic.plist */,
+				769EF7581F32FA7700F0BD37 /* DeliveryAdress.plist */,
+				769EF7591F32FA7700F0BD37 /* MessageNote.plist */,
+				769EF75A1F32FA7700F0BD37 /* MyBuyFlow.plist */,
+				769EF75B1F32FA7700F0BD37 /* MyRecreationFlow.plist */,
+				769EF75C1F32FA7700F0BD37 /* YouLikeGoods.plist */,
+			);
+			path = "我的Plist";
+			sourceTree = "<group>";
+		};
+		769EF75D1F32FA7700F0BD37 /* 购物车Plist */ = {
+			isa = PBXGroup;
+			children = (
+				769EF75E1F32FA7700F0BD37 /* RecommendShop.plist */,
+			);
+			path = "购物车Plist";
+			sourceTree = "<group>";
+		};
+		769EF75F1F32FA7700F0BD37 /* 首页Plist */ = {
+			isa = PBXGroup;
+			children = (
+				769EF7601F32FA7700F0BD37 /* CountDownShop.plist */,
+				769EF7611F32FA7700F0BD37 /* GoodsGrid.plist */,
+				769EF7621F32FA7700F0BD37 /* HomeHighGoods.plist */,
+			);
+			path = "首页Plist";
+			sourceTree = "<group>";
+		};
+		85D921C81A04020FE73FC8A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A52D9D92717F1E4B711FB6C /* Pods-PLMall.debug.xcconfig */,
+				AD514271011DE889714A1287 /* Pods-PLMall.release.xcconfig */,
+				7883AB62B1BE15903AB4AF60 /* Pods-PLMallTests.debug.xcconfig */,
+				32D3C8DBEA386308DD3A7AAF /* Pods-PLMallTests.release.xcconfig */,
+				99220AC15374788F53EA66CF /* Pods-PLMallUITests.debug.xcconfig */,
+				F66DF9B8E2A2777FC9E543E0 /* Pods-PLMallUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8DD6B09C7ECCF4C97CB14BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				299DB607E579D94750BE6563 /* libPods-PLMall.a */,
+				D6292AF6760BCA2D5590F1C6 /* libPods-PLMallTests.a */,
+				94391A5BE84EAD0F6D5AFA60 /* libPods-PLMallUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +303,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 769EF6FE1F32F1FD00F0BD37 /* Build configuration list for PBXNativeTarget "PLMall" */;
 			buildPhases = (
+				7A82C97966742A77E91384DE /* [CP] Check Pods Manifest.lock */,
 				769EF6CD1F32F1FD00F0BD37 /* Sources */,
 				769EF6CE1F32F1FD00F0BD37 /* Frameworks */,
 				769EF6CF1F32F1FD00F0BD37 /* Resources */,
+				8644B65C0E43CD9330B45A5C /* [CP] Embed Pods Frameworks */,
+				6D9702F1337FB1BDFF26F57A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +323,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 769EF7011F32F1FD00F0BD37 /* Build configuration list for PBXNativeTarget "PLMallTests" */;
 			buildPhases = (
+				63714ABFE5BF3B407E0335AC /* [CP] Check Pods Manifest.lock */,
 				769EF6E61F32F1FD00F0BD37 /* Sources */,
 				769EF6E71F32F1FD00F0BD37 /* Frameworks */,
 				769EF6E81F32F1FD00F0BD37 /* Resources */,
+				046B0B73207F577EE578D104 /* [CP] Embed Pods Frameworks */,
+				BB05893F81846D26225BFD03 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +344,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 769EF7041F32F1FD00F0BD37 /* Build configuration list for PBXNativeTarget "PLMallUITests" */;
 			buildPhases = (
+				EFBE6FAD94EB9F8E224DBCC9 /* [CP] Check Pods Manifest.lock */,
 				769EF6F11F32F1FD00F0BD37 /* Sources */,
 				769EF6F21F32F1FD00F0BD37 /* Frameworks */,
 				769EF6F31F32F1FD00F0BD37 /* Resources */,
+				63D94F57235AB54AFB819B9B /* [CP] Embed Pods Frameworks */,
+				6D9CB0AAC4794FB95D0113A2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,9 +411,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				769EF7631F32FA7700F0BD37 /* ClasiftyGoods.plist in Resources */,
+				769EF7751F32FA7700F0BD37 /* GoodsGrid.plist in Resources */,
+				769EF76D1F32FA7700F0BD37 /* CommentPic.plist in Resources */,
+				769EF7721F32FA7700F0BD37 /* YouLikeGoods.plist in Resources */,
+				769EF7781F32FAD400F0BD37 /* Assets.xcassets in Resources */,
+				769EF76A1F32FA7700F0BD37 /* FootprintGoods.plist in Resources */,
+				769EF7671F32FA7700F0BD37 /* ClassifyTitles.plist in Resources */,
+				769EF7711F32FA7700F0BD37 /* MyRecreationFlow.plist in Resources */,
+				769EF7741F32FA7700F0BD37 /* CountDownShop.plist in Resources */,
+				769EF7761F32FA7700F0BD37 /* HomeHighGoods.plist in Resources */,
 				769EF6E41F32F1FD00F0BD37 /* LaunchScreen.storyboard in Resources */,
-				769EF6E11F32F1FD00F0BD37 /* Assets.xcassets in Resources */,
+				769EF7651F32FA7700F0BD37 /* ClassiftyGoods02.plist in Resources */,
+				769EF76F1F32FA7700F0BD37 /* MessageNote.plist in Resources */,
+				769EF7701F32FA7700F0BD37 /* MyBuyFlow.plist in Resources */,
+				769EF76C1F32FA7700F0BD37 /* ShopItem.plist in Resources */,
+				769EF7691F32FA7700F0BD37 /* FiltrateItem.plist in Resources */,
+				769EF76E1F32FA7700F0BD37 /* DeliveryAdress.plist in Resources */,
+				769EF7731F32FA7700F0BD37 /* RecommendShop.plist in Resources */,
+				769EF7641F32FA7700F0BD37 /* ClassiftyGoods01.plist in Resources */,
+				769EF7681F32FA7700F0BD37 /* DetailRecommend.plist in Resources */,
+				769EF76B1F32FA7700F0BD37 /* shareTerrace.plist in Resources */,
 				769EF6DF1F32F1FD00F0BD37 /* Main.storyboard in Resources */,
+				769EF7661F32FA7700F0BD37 /* ClassiftyGoods03.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +452,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		046B0B73207F577EE578D104 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PLMallTests/Pods-PLMallTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63714ABFE5BF3B407E0335AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		63D94F57235AB54AFB819B9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PLMallUITests/Pods-PLMallUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D9702F1337FB1BDFF26F57A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PLMall/Pods-PLMall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D9CB0AAC4794FB95D0113A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PLMallUITests/Pods-PLMallUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A82C97966742A77E91384DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8644B65C0E43CD9330B45A5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PLMall/Pods-PLMall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB05893F81846D26225BFD03 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PLMallTests/Pods-PLMallTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFBE6FAD94EB9F8E224DBCC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		769EF6CD1F32F1FD00F0BD37 /* Sources */ = {
@@ -422,6 +745,7 @@
 		};
 		769EF6FF1F32F1FD00F0BD37 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A52D9D92717F1E4B711FB6C /* Pods-PLMall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PLMall/Info.plist;
@@ -433,6 +757,7 @@
 		};
 		769EF7001F32F1FD00F0BD37 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD514271011DE889714A1287 /* Pods-PLMall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PLMall/Info.plist;
@@ -444,6 +769,7 @@
 		};
 		769EF7021F32F1FD00F0BD37 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7883AB62B1BE15903AB4AF60 /* Pods-PLMallTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PLMallTests/Info.plist;
@@ -456,6 +782,7 @@
 		};
 		769EF7031F32F1FD00F0BD37 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32D3C8DBEA386308DD3A7AAF /* Pods-PLMallTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PLMallTests/Info.plist;
@@ -468,6 +795,7 @@
 		};
 		769EF7051F32F1FD00F0BD37 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99220AC15374788F53EA66CF /* Pods-PLMallUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PLMallUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -479,6 +807,7 @@
 		};
 		769EF7061F32F1FD00F0BD37 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F66DF9B8E2A2777FC9E543E0 /* Pods-PLMallUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PLMallUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -507,6 +836,7 @@
 				769EF7001F32F1FD00F0BD37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		769EF7011F32F1FD00F0BD37 /* Build configuration list for PBXNativeTarget "PLMallTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +845,7 @@
 				769EF7031F32F1FD00F0BD37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		769EF7041F32F1FD00F0BD37 /* Build configuration list for PBXNativeTarget "PLMallUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +854,7 @@
 				769EF7061F32F1FD00F0BD37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
