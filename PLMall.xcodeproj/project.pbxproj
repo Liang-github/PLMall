@@ -78,6 +78,9 @@
 		7635BC451F3405F8008C9448 /* PLUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7635BC441F3405F8008C9448 /* PLUserInfo.m */; };
 		7635BC481F340775008C9448 /* PLSelPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 7635BC471F340775008C9448 /* PLSelPhotos.m */; };
 		7635BC4B1F3413DA008C9448 /* PLSpeedy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7635BC4A1F3413DA008C9448 /* PLSpeedy.m */; };
+		7635BC591F3445C6008C9448 /* PLGridItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7635BC581F3445C6008C9448 /* PLGridItem.m */; };
+		7635BC5D1F344659008C9448 /* PLHoverNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7635BC5C1F344659008C9448 /* PLHoverNavView.m */; };
+		7635BC601F344B94008C9448 /* PLNavSearchBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7635BC5F1F344B94008C9448 /* PLNavSearchBarView.m */; };
 		769EF6D61F32F1FD00F0BD37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 769EF6D51F32F1FD00F0BD37 /* main.m */; };
 		769EF6D91F32F1FD00F0BD37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 769EF6D81F32F1FD00F0BD37 /* AppDelegate.m */; };
 		769EF6DF1F32F1FD00F0BD37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 769EF6DD1F32F1FD00F0BD37 /* Main.storyboard */; };
@@ -272,6 +275,12 @@
 		7635BC471F340775008C9448 /* PLSelPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLSelPhotos.m; sourceTree = "<group>"; };
 		7635BC491F3413DA008C9448 /* PLSpeedy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLSpeedy.h; sourceTree = "<group>"; };
 		7635BC4A1F3413DA008C9448 /* PLSpeedy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLSpeedy.m; sourceTree = "<group>"; };
+		7635BC571F3445C6008C9448 /* PLGridItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLGridItem.h; sourceTree = "<group>"; };
+		7635BC581F3445C6008C9448 /* PLGridItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLGridItem.m; sourceTree = "<group>"; };
+		7635BC5B1F344659008C9448 /* PLHoverNavView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLHoverNavView.h; sourceTree = "<group>"; };
+		7635BC5C1F344659008C9448 /* PLHoverNavView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLHoverNavView.m; sourceTree = "<group>"; };
+		7635BC5E1F344B94008C9448 /* PLNavSearchBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLNavSearchBarView.h; sourceTree = "<group>"; };
+		7635BC5F1F344B94008C9448 /* PLNavSearchBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLNavSearchBarView.m; sourceTree = "<group>"; };
 		769EF6D11F32F1FD00F0BD37 /* PLMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PLMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		769EF6D51F32F1FD00F0BD37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		769EF6D71F32F1FD00F0BD37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -713,6 +722,9 @@
 		7635BC501F343568008C9448 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				7635BC561F3445A2008C9448 /* Model */,
+				7635BC551F34459A008C9448 /* View */,
+				7635BC541F344588008C9448 /* Controller */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -729,6 +741,48 @@
 			children = (
 			);
 			path = ShoppingCar;
+			sourceTree = "<group>";
+		};
+		7635BC531F34452D008C9448 /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classify;
+			sourceTree = "<group>";
+		};
+		7635BC541F344588008C9448 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7635BC551F34459A008C9448 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7635BC5A1F344623008C9448 /* CollectionView */,
+				7635BC5B1F344659008C9448 /* PLHoverNavView.h */,
+				7635BC5C1F344659008C9448 /* PLHoverNavView.m */,
+				7635BC5E1F344B94008C9448 /* PLNavSearchBarView.h */,
+				7635BC5F1F344B94008C9448 /* PLNavSearchBarView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7635BC561F3445A2008C9448 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7635BC571F3445C6008C9448 /* PLGridItem.h */,
+				7635BC581F3445C6008C9448 /* PLGridItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7635BC5A1F344623008C9448 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CollectionView;
 			sourceTree = "<group>";
 		};
 		769EF6C81F32F1FD00F0BD37 = {
@@ -760,6 +814,7 @@
 				769EF7091F32F9C800F0BD37 /* AppDelegate */,
 				7635BC501F343568008C9448 /* Home */,
 				7635BC511F34356F008C9448 /* Details */,
+				7635BC531F34452D008C9448 /* Classify */,
 				7635BC411F34059F008C9448 /* PersonalCenter */,
 				7635BC521F34359A008C9448 /* ShoppingCar */,
 				769EF87B1F330D9600F0BD37 /* Expand */,
@@ -1262,6 +1317,8 @@
 				7635BC161F33FF9A008C9448 /* LBXAlertAction.m in Sources */,
 				7635BC391F33FF9A008C9448 /* XWFilterAnimator+XWRipple.m in Sources */,
 				769EF8821F33137900F0BD37 /* UIImage+PLCircle.m in Sources */,
+				7635BC5D1F344659008C9448 /* PLHoverNavView.m in Sources */,
+				7635BC591F3445C6008C9448 /* PLGridItem.m in Sources */,
 				7635BC041F33FF9A008C9448 /* WJYAlertView.m in Sources */,
 				7635BC0E1F33FF9A008C9448 /* LBXScanResult.m in Sources */,
 				7635BC2F1F33FF9A008C9448 /* XWCoolAnimator+XWScanning.m in Sources */,
@@ -1310,6 +1367,7 @@
 				7635BB751F33FEF7008C9448 /* PLUpDownButton.m in Sources */,
 				769EF87F1F330E2D00F0BD37 /* UIBarButtonItem+PLBarButtonItem.m in Sources */,
 				7635BC021F33FF9A008C9448 /* AddressPickerView.m in Sources */,
+				7635BC601F344B94008C9448 /* PLNavSearchBarView.m in Sources */,
 				7635BC331F33FF9A008C9448 /* XWFilterAnimator+XWBoxBlur.m in Sources */,
 				7635BC1B1F33FF9A008C9448 /* UIActionSheet+LBXAlertAction.m in Sources */,
 				7635BC121F33FF9A008C9448 /* LBXScanViewStyle.m in Sources */,

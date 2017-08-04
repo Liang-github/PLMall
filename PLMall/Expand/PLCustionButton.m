@@ -12,7 +12,7 @@
 @end
 @implementation PLCustionButton
 
-#pragma mark - Intail
+#pragma mark - Intial
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
