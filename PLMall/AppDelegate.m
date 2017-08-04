@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "JKDBModel.h"
+#import "BaseTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,10 +17,32 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    self.window.rootViewController = [[BaseTabBarController alloc] init];
+    [self setUpUserData]; //设置数据
     return YES;
 }
-
+//是否登录
+- (void)setUpUserData {
+    PLUserInfo *userInfo = UserInfoData;
+    if (userInfo.username.length == 0) { //userName为指定id不可改动用来判断是否有用户数据
+        PLUserInfo *userInfo = [[PLUserInfo alloc] init];
+        userInfo.nickname = @"shifu";
+        userInfo.sex = @"男";
+        userInfo.birthDay = @"1994-08-18";
+        userInfo.userimage = @"icon";
+        userInfo.username = @"冬like";
+        userInfo.defaultAddress = @"南京 玄武区";
+        dispatch_async(dispatch_get_global_queue(0, 0), ^{
+            //异步保存
+            [userInfo save];
+        });
+        
+    }
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

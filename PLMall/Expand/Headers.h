@@ -11,6 +11,7 @@
 #import "PLConsts.h"//常量
 #import "Macros.h"//宏
 
+#import "PLSpeedy.h" //便捷方法
 #import "PLUserInfo.h" //本地数据个人中心数据
 #import "UIView+PLExtension.h"
 

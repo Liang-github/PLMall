@@ -80,7 +80,6 @@
 		7635BC4B1F3413DA008C9448 /* PLSpeedy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7635BC4A1F3413DA008C9448 /* PLSpeedy.m */; };
 		769EF6D61F32F1FD00F0BD37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 769EF6D51F32F1FD00F0BD37 /* main.m */; };
 		769EF6D91F32F1FD00F0BD37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 769EF6D81F32F1FD00F0BD37 /* AppDelegate.m */; };
-		769EF6DC1F32F1FD00F0BD37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 769EF6DB1F32F1FD00F0BD37 /* ViewController.m */; };
 		769EF6DF1F32F1FD00F0BD37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 769EF6DD1F32F1FD00F0BD37 /* Main.storyboard */; };
 		769EF6E41F32F1FD00F0BD37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 769EF6E21F32F1FD00F0BD37 /* LaunchScreen.storyboard */; };
 		769EF6EF1F32F1FD00F0BD37 /* PLMallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 769EF6EE1F32F1FD00F0BD37 /* PLMallTests.m */; };
@@ -277,8 +276,6 @@
 		769EF6D51F32F1FD00F0BD37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		769EF6D71F32F1FD00F0BD37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		769EF6D81F32F1FD00F0BD37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		769EF6DA1F32F1FD00F0BD37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		769EF6DB1F32F1FD00F0BD37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		769EF6DE1F32F1FD00F0BD37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		769EF6E31F32F1FD00F0BD37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		769EF6E51F32F1FD00F0BD37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -713,6 +710,27 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		7635BC501F343568008C9448 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7635BC511F34356F008C9448 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		7635BC521F34359A008C9448 /* ShoppingCar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ShoppingCar;
+			sourceTree = "<group>";
+		};
 		769EF6C81F32F1FD00F0BD37 = {
 			isa = PBXGroup;
 			children = (
@@ -738,9 +756,12 @@
 		769EF6D31F32F1FD00F0BD37 /* PLMall */ = {
 			isa = PBXGroup;
 			children = (
-				7635BC411F34059F008C9448 /* PersonalCenter */,
 				769EF7791F32FE9300F0BD37 /* Main */,
 				769EF7091F32F9C800F0BD37 /* AppDelegate */,
+				7635BC501F343568008C9448 /* Home */,
+				7635BC511F34356F008C9448 /* Details */,
+				7635BC411F34059F008C9448 /* PersonalCenter */,
+				7635BC521F34359A008C9448 /* ShoppingCar */,
 				769EF87B1F330D9600F0BD37 /* Expand */,
 				769EF7491F32FA7700F0BD37 /* Resource */,
 				769EF6D41F32F1FD00F0BD37 /* Supporting Files */,
@@ -785,8 +806,6 @@
 			children = (
 				769EF6D71F32F1FD00F0BD37 /* AppDelegate.h */,
 				769EF6D81F32F1FD00F0BD37 /* AppDelegate.m */,
-				769EF6DA1F32F1FD00F0BD37 /* ViewController.h */,
-				769EF6DB1F32F1FD00F0BD37 /* ViewController.m */,
 			);
 			name = AppDelegate;
 			sourceTree = "<group>";
@@ -1240,7 +1259,6 @@
 				7635BC381F33FF9A008C9448 /* XWFilterAnimator+XWPageCurl.m in Sources */,
 				7635BC4B1F3413DA008C9448 /* PLSpeedy.m in Sources */,
 				769EF8881F3317DE00F0BD37 /* UIView+PLExtension.m in Sources */,
-				769EF6DC1F32F1FD00F0BD37 /* ViewController.m in Sources */,
 				7635BC161F33FF9A008C9448 /* LBXAlertAction.m in Sources */,
 				7635BC391F33FF9A008C9448 /* XWFilterAnimator+XWRipple.m in Sources */,
 				769EF8821F33137900F0BD37 /* UIImage+PLCircle.m in Sources */,

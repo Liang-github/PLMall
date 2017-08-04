@@ -18,7 +18,7 @@
 #define MallClassKey @"rootVCClassString"
 #define MallTitleKey @"title"
 #define MallImgKey @"imageName"
-#define MallSellImgKey @"selectedImageName"
+#define MallSelImgKey @"selectedImageName"
 /***********************  屏幕适配   ***************/
 #define iphone6p (ScreenH == 763)
 #define iphone6 (ScreenH == 667)
@@ -31,7 +31,7 @@
 
 #define HEXCOLOR(hex) [UIColor colorWithRed:((float)((hex & 0xFF0000) >> 16)) / 255.0 green:((float)((hex & 0xFF00) >> 8)) / 255.0 blue:((float)(hex & 0xFF)) / 255.0 alpha:1]
 //全局背景色
-#define DCBGColor RGB(245,245,245)
+#define PLBGColor RGB(245,245,245)
 
 #define PFR [[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0 ? @"PingFangSC-Regular" : @"PingFang SC"
 
