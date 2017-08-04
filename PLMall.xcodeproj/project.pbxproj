@@ -81,6 +81,7 @@
 		7635BC591F3445C6008C9448 /* PLGridItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7635BC581F3445C6008C9448 /* PLGridItem.m */; };
 		7635BC5D1F344659008C9448 /* PLHoverNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7635BC5C1F344659008C9448 /* PLHoverNavView.m */; };
 		7635BC601F344B94008C9448 /* PLNavSearchBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7635BC5F1F344B94008C9448 /* PLNavSearchBarView.m */; };
+		7635BC631F3457A0008C9448 /* PLNumericalScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7635BC621F3457A0008C9448 /* PLNumericalScrollView.m */; };
 		769EF6D61F32F1FD00F0BD37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 769EF6D51F32F1FD00F0BD37 /* main.m */; };
 		769EF6D91F32F1FD00F0BD37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 769EF6D81F32F1FD00F0BD37 /* AppDelegate.m */; };
 		769EF6DF1F32F1FD00F0BD37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 769EF6DD1F32F1FD00F0BD37 /* Main.storyboard */; };
@@ -281,6 +282,8 @@
 		7635BC5C1F344659008C9448 /* PLHoverNavView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLHoverNavView.m; sourceTree = "<group>"; };
 		7635BC5E1F344B94008C9448 /* PLNavSearchBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLNavSearchBarView.h; sourceTree = "<group>"; };
 		7635BC5F1F344B94008C9448 /* PLNavSearchBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLNavSearchBarView.m; sourceTree = "<group>"; };
+		7635BC611F3457A0008C9448 /* PLNumericalScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLNumericalScrollView.h; sourceTree = "<group>"; };
+		7635BC621F3457A0008C9448 /* PLNumericalScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLNumericalScrollView.m; sourceTree = "<group>"; };
 		769EF6D11F32F1FD00F0BD37 /* PLMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PLMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		769EF6D51F32F1FD00F0BD37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		769EF6D71F32F1FD00F0BD37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -765,6 +768,8 @@
 				7635BC5C1F344659008C9448 /* PLHoverNavView.m */,
 				7635BC5E1F344B94008C9448 /* PLNavSearchBarView.h */,
 				7635BC5F1F344B94008C9448 /* PLNavSearchBarView.m */,
+				7635BC611F3457A0008C9448 /* PLNumericalScrollView.h */,
+				7635BC621F3457A0008C9448 /* PLNumericalScrollView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -1372,6 +1377,7 @@
 				7635BC1B1F33FF9A008C9448 /* UIActionSheet+LBXAlertAction.m in Sources */,
 				7635BC121F33FF9A008C9448 /* LBXScanViewStyle.m in Sources */,
 				7635BC371F33FF9A008C9448 /* XWFilterAnimator+XWMod.m in Sources */,
+				7635BC631F3457A0008C9448 /* PLNumericalScrollView.m in Sources */,
 				7635BC131F33FF9A008C9448 /* LBXScanWrapper.m in Sources */,
 				7635BC3A1F33FF9A008C9448 /* XWFilterAnimator+XWSwipe.m in Sources */,
 				7635BC271F33FF9A008C9448 /* SDWaitingView.m in Sources */,
