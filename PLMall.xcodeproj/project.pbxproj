@@ -116,6 +116,18 @@
 		769EF8821F33137900F0BD37 /* UIImage+PLCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 769EF8811F33137900F0BD37 /* UIImage+PLCircle.m */; };
 		769EF8851F3316C100F0BD37 /* UIImageView+PLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 769EF8841F3316C100F0BD37 /* UIImageView+PLExtension.m */; };
 		769EF8881F3317DE00F0BD37 /* UIView+PLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 769EF8871F3317DE00F0BD37 /* UIView+PLExtension.m */; };
+		76B613E31F3806DB001286AC /* PLZuoWenRightButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B613E21F3806DB001286AC /* PLZuoWenRightButton.m */; };
+		76B613E61F3807B9001286AC /* PLHandPickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B613E51F3807B9001286AC /* PLHandPickViewController.m */; };
+		76B613E91F3808CF001286AC /* PLAddressItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B613E81F3808CF001286AC /* PLAddressItem.m */; };
+		76B613EC1F3809E7001286AC /* PLFlowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B613EB1F3809E7001286AC /* PLFlowItem.m */; };
+		76B613EF1F380A35001286AC /* PLMessageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B613EE1F380A35001286AC /* PLMessageItem.m */; };
+		76B613F51F380ADA001286AC /* PLFlowAttributeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B613F41F380ADA001286AC /* PLFlowAttributeCell.m */; };
+		76B613F91F380FE3001286AC /* PLMySelfHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B613F71F380FE3001286AC /* PLMySelfHeadView.m */; };
+		76B613FA1F380FE3001286AC /* PLMySelfHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76B613F81F380FE3001286AC /* PLMySelfHeadView.xib */; };
+		76B613FD1F3838FD001286AC /* PLHelpBackSquareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B613FC1F3838FD001286AC /* PLHelpBackSquareCell.m */; };
+		76B614001F383AC3001286AC /* PLMessageNoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B613FF1F383AC3001286AC /* PLMessageNoteCell.m */; };
+		76B614031F383E04001286AC /* PLReceiverAddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B614021F383E04001286AC /* PLReceiverAddressCell.m */; };
+		76B614061F384619001286AC /* PLSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B614051F384619001286AC /* PLSettingCell.m */; };
 		DF267FDA7ACCBA8ED852A64E /* libPods-PLMallTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6292AF6760BCA2D5590F1C6 /* libPods-PLMallTests.a */; };
 /* End PBXBuildFile section */
 
@@ -332,6 +344,29 @@
 		769EF8841F3316C100F0BD37 /* UIImageView+PLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+PLExtension.m"; sourceTree = "<group>"; };
 		769EF8861F3317DE00F0BD37 /* UIView+PLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PLExtension.h"; sourceTree = "<group>"; };
 		769EF8871F3317DE00F0BD37 /* UIView+PLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PLExtension.m"; sourceTree = "<group>"; };
+		76B613E11F3806DB001286AC /* PLZuoWenRightButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLZuoWenRightButton.h; sourceTree = "<group>"; };
+		76B613E21F3806DB001286AC /* PLZuoWenRightButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLZuoWenRightButton.m; sourceTree = "<group>"; };
+		76B613E41F3807B9001286AC /* PLHandPickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLHandPickViewController.h; sourceTree = "<group>"; };
+		76B613E51F3807B9001286AC /* PLHandPickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLHandPickViewController.m; sourceTree = "<group>"; };
+		76B613E71F3808CF001286AC /* PLAddressItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLAddressItem.h; sourceTree = "<group>"; };
+		76B613E81F3808CF001286AC /* PLAddressItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLAddressItem.m; sourceTree = "<group>"; };
+		76B613EA1F3809E7001286AC /* PLFlowItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLFlowItem.h; sourceTree = "<group>"; };
+		76B613EB1F3809E7001286AC /* PLFlowItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLFlowItem.m; sourceTree = "<group>"; };
+		76B613ED1F380A35001286AC /* PLMessageItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLMessageItem.h; sourceTree = "<group>"; };
+		76B613EE1F380A35001286AC /* PLMessageItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLMessageItem.m; sourceTree = "<group>"; };
+		76B613F31F380ADA001286AC /* PLFlowAttributeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLFlowAttributeCell.h; sourceTree = "<group>"; };
+		76B613F41F380ADA001286AC /* PLFlowAttributeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLFlowAttributeCell.m; sourceTree = "<group>"; };
+		76B613F61F380FE3001286AC /* PLMySelfHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLMySelfHeadView.h; sourceTree = "<group>"; };
+		76B613F71F380FE3001286AC /* PLMySelfHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLMySelfHeadView.m; sourceTree = "<group>"; };
+		76B613F81F380FE3001286AC /* PLMySelfHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PLMySelfHeadView.xib; sourceTree = "<group>"; };
+		76B613FB1F3838FD001286AC /* PLHelpBackSquareCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLHelpBackSquareCell.h; sourceTree = "<group>"; };
+		76B613FC1F3838FD001286AC /* PLHelpBackSquareCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLHelpBackSquareCell.m; sourceTree = "<group>"; };
+		76B613FE1F383AC3001286AC /* PLMessageNoteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLMessageNoteCell.h; sourceTree = "<group>"; };
+		76B613FF1F383AC3001286AC /* PLMessageNoteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLMessageNoteCell.m; sourceTree = "<group>"; };
+		76B614011F383E04001286AC /* PLReceiverAddressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLReceiverAddressCell.h; sourceTree = "<group>"; };
+		76B614021F383E04001286AC /* PLReceiverAddressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLReceiverAddressCell.m; sourceTree = "<group>"; };
+		76B614041F384619001286AC /* PLSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLSettingCell.h; sourceTree = "<group>"; };
+		76B614051F384619001286AC /* PLSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLSettingCell.m; sourceTree = "<group>"; };
 		7883AB62B1BE15903AB4AF60 /* Pods-PLMallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLMallTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PLMallTests/Pods-PLMallTests.debug.xcconfig"; sourceTree = "<group>"; };
 		94391A5BE84EAD0F6D5AFA60 /* libPods-PLMallUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PLMallUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99220AC15374788F53EA66CF /* Pods-PLMallUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLMallUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PLMallUITests/Pods-PLMallUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -708,6 +743,8 @@
 		7635BC411F34059F008C9448 /* PersonalCenter */ = {
 			isa = PBXGroup;
 			children = (
+				76B613F11F380A99001286AC /* Controller */,
+				76B613F01F380A92001286AC /* View */,
 				7635BC421F3405DF008C9448 /* Model */,
 			);
 			path = PersonalCenter;
@@ -718,6 +755,12 @@
 			children = (
 				7635BC431F3405F8008C9448 /* PLUserInfo.h */,
 				7635BC441F3405F8008C9448 /* PLUserInfo.m */,
+				76B613E71F3808CF001286AC /* PLAddressItem.h */,
+				76B613E81F3808CF001286AC /* PLAddressItem.m */,
+				76B613EA1F3809E7001286AC /* PLFlowItem.h */,
+				76B613EB1F3809E7001286AC /* PLFlowItem.m */,
+				76B613ED1F380A35001286AC /* PLMessageItem.h */,
+				76B613EE1F380A35001286AC /* PLMessageItem.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -756,6 +799,8 @@
 		7635BC541F344588008C9448 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				76B613E41F3807B9001286AC /* PLHandPickViewController.h */,
+				76B613E51F3807B9001286AC /* PLHandPickViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -770,6 +815,8 @@
 				7635BC5F1F344B94008C9448 /* PLNavSearchBarView.m */,
 				7635BC611F3457A0008C9448 /* PLNumericalScrollView.h */,
 				7635BC621F3457A0008C9448 /* PLNumericalScrollView.m */,
+				76B613E11F3806DB001286AC /* PLZuoWenRightButton.h */,
+				76B613E21F3806DB001286AC /* PLZuoWenRightButton.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -976,6 +1023,41 @@
 			name = Category;
 			sourceTree = "<group>";
 		};
+		76B613F01F380A92001286AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				76B613FB1F3838FD001286AC /* PLHelpBackSquareCell.h */,
+				76B613FC1F3838FD001286AC /* PLHelpBackSquareCell.m */,
+				76B613FE1F383AC3001286AC /* PLMessageNoteCell.h */,
+				76B613FF1F383AC3001286AC /* PLMessageNoteCell.m */,
+				76B614011F383E04001286AC /* PLReceiverAddressCell.h */,
+				76B614021F383E04001286AC /* PLReceiverAddressCell.m */,
+				76B614041F384619001286AC /* PLSettingCell.h */,
+				76B614051F384619001286AC /* PLSettingCell.m */,
+				76B613F21F380AA9001286AC /* MainView */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		76B613F11F380A99001286AC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		76B613F21F380AA9001286AC /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				76B613F31F380ADA001286AC /* PLFlowAttributeCell.h */,
+				76B613F41F380ADA001286AC /* PLFlowAttributeCell.m */,
+				76B613F61F380FE3001286AC /* PLMySelfHeadView.h */,
+				76B613F71F380FE3001286AC /* PLMySelfHeadView.m */,
+				76B613F81F380FE3001286AC /* PLMySelfHeadView.xib */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
 		85D921C81A04020FE73FC8A3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1141,6 +1223,7 @@
 				769EF7681F32FA7700F0BD37 /* DetailRecommend.plist in Resources */,
 				769EF76B1F32FA7700F0BD37 /* shareTerrace.plist in Resources */,
 				769EF6DF1F32F1FD00F0BD37 /* Main.storyboard in Resources */,
+				76B613FA1F380FE3001286AC /* PLMySelfHeadView.xib in Resources */,
 				769EF8751F33065B00F0BD37 /* PingFang Medium.ttf in Resources */,
 				769EF7661F32FA7700F0BD37 /* ClassiftyGoods03.plist in Resources */,
 				7635BC011F33FF9A008C9448 /* addressData.plist in Resources */,
@@ -1311,12 +1394,17 @@
 				7635BC0B1F33FF9A008C9448 /* LBXScanLineAnimation.m in Sources */,
 				7635BC3B1F33FF9A008C9448 /* XWFilterAnimator.m in Sources */,
 				7635BC401F34051D008C9448 /* PLKeepNewUserData.m in Sources */,
+				76B613EC1F3809E7001286AC /* PLFlowItem.m in Sources */,
 				7635BB721F33FEE1008C9448 /* PLLIRLButton.m in Sources */,
 				7635BC071F33FF9A008C9448 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				76B613E91F3808CF001286AC /* PLAddressItem.m in Sources */,
 				769EF77F1F32FF4A00F0BD37 /* BaseTabBarController.m in Sources */,
+				76B613EF1F380A35001286AC /* PLMessageItem.m in Sources */,
 				769EF77C1F32FF1F00F0BD37 /* BaseNavigationController.m in Sources */,
 				7635BC1F1F33FF9A008C9448 /* UIViewController+XWTransition.m in Sources */,
 				7635BC381F33FF9A008C9448 /* XWFilterAnimator+XWPageCurl.m in Sources */,
+				76B613F91F380FE3001286AC /* PLMySelfHeadView.m in Sources */,
+				76B613FD1F3838FD001286AC /* PLHelpBackSquareCell.m in Sources */,
 				7635BC4B1F3413DA008C9448 /* PLSpeedy.m in Sources */,
 				769EF8881F3317DE00F0BD37 /* UIView+PLExtension.m in Sources */,
 				7635BC161F33FF9A008C9448 /* LBXAlertAction.m in Sources */,
@@ -1330,6 +1418,7 @@
 				7635BC3C1F33FF9A008C9448 /* XWFilterTransitionView.m in Sources */,
 				7635BC0C1F33FF9A008C9448 /* LBXScanNative.m in Sources */,
 				7635BC261F33FF9A008C9448 /* SDPhotoBrowser.m in Sources */,
+				76B613F51F380ADA001286AC /* PLFlowAttributeCell.m in Sources */,
 				7635BC1D1F33FF9A008C9448 /* UINavigationController+XWTransition.m in Sources */,
 				7635BC0D1F33FF9A008C9448 /* LBXScanNetAnimation.m in Sources */,
 				7635BC451F3405F8008C9448 /* PLUserInfo.m in Sources */,
@@ -1342,12 +1431,16 @@
 				7635BC2B1F33FF9A008C9448 /* XWCoolAnimator+XWLines.m in Sources */,
 				7635BC291F33FF9A008C9448 /* XWCoolAnimator+XWExplode.m in Sources */,
 				7635BB661F33F66C008C9448 /* PLConsts.m in Sources */,
+				76B613E61F3807B9001286AC /* PLHandPickViewController.m in Sources */,
 				7635BC311F33FF9A008C9448 /* XWDrawerAnimator.m in Sources */,
+				76B614061F384619001286AC /* PLSettingCell.m in Sources */,
 				7635BC351F33FF9A008C9448 /* XWFilterAnimator+XWFlash.m in Sources */,
 				7635BC031F33FF9A008C9448 /* UIPlaceHolderTextView.m in Sources */,
 				7635BC2E1F33FF9A008C9448 /* XWCoolAnimator+XWPortal.m in Sources */,
 				7635BC101F33FF9A008C9448 /* LBXScanView.m in Sources */,
 				769EF8851F3316C100F0BD37 /* UIImageView+PLExtension.m in Sources */,
+				76B614001F383AC3001286AC /* PLMessageNoteCell.m in Sources */,
+				76B613E31F3806DB001286AC /* PLZuoWenRightButton.m in Sources */,
 				769EF6D91F32F1FD00F0BD37 /* AppDelegate.m in Sources */,
 				7635BC481F340775008C9448 /* PLSelPhotos.m in Sources */,
 				7635BC321F33FF9A008C9448 /* XWFilterAnimator+XWBarSwipe.m in Sources */,
@@ -1367,6 +1460,7 @@
 				7635BC1E1F33FF9A008C9448 /* UIView+Snapshot.m in Sources */,
 				7635BC3D1F33FF9A008C9448 /* XWMagicMoveAnimator.m in Sources */,
 				7635BC151F33FF9A008C9448 /* ZXingWrapper.m in Sources */,
+				76B614031F383E04001286AC /* PLReceiverAddressCell.m in Sources */,
 				7635BC341F33FF9A008C9448 /* XWFilterAnimator+XWCopyMachine.m in Sources */,
 				7635BC2A1F33FF9A008C9448 /* XWCoolAnimator+XWFold.m in Sources */,
 				7635BB751F33FEF7008C9448 /* PLUpDownButton.m in Sources */,
