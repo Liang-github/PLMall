@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @class PLRecomendItem;
-@interface PLRecommendCell : UITableViewCell
+@interface PLRecommendCell : UICollectionViewCell
 //推荐商品数据
 @property (nonatomic, strong) PLRecomendItem *recommendItem;
 @end
