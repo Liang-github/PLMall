@@ -128,6 +128,23 @@
 		76B614001F383AC3001286AC /* PLMessageNoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B613FF1F383AC3001286AC /* PLMessageNoteCell.m */; };
 		76B614031F383E04001286AC /* PLReceiverAddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B614021F383E04001286AC /* PLReceiverAddressCell.m */; };
 		76B614061F384619001286AC /* PLSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B614051F384619001286AC /* PLSettingCell.m */; };
+		76C8C4E71F393630009B7080 /* PLChangeNicknameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C8C4E61F393630009B7080 /* PLChangeNicknameViewController.m */; };
+		76C8C4EA1F3938DA009B7080 /* PLHelpBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C8C4E91F3938DA009B7080 /* PLHelpBackViewController.m */; };
+		76C8C4ED1F393F47009B7080 /* PLMyselfMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C8C4EC1F393F47009B7080 /* PLMyselfMessageViewController.m */; };
+		76C8C4F01F393F99009B7080 /* PLReceiverAdressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C8C4EF1F393F99009B7080 /* PLReceiverAdressViewController.m */; };
+		76C8C4F31F39511C009B7080 /* PLPersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C8C4F21F39511C009B7080 /* PLPersonalCenterViewController.m */; };
+		76C8C4F61F395190009B7080 /* PLMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C8C4F51F395190009B7080 /* PLMessageViewController.m */; };
+		76C8C4F91F3951A5009B7080 /* PLSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C8C4F81F3951A5009B7080 /* PLSettingViewController.m */; };
+		76C8C5011F395299009B7080 /* PLClassSubItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C8C5001F395299009B7080 /* PLClassSubItem.m */; };
+		76C8C5041F3952BB009B7080 /* PLClassGoodsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C8C5031F3952BB009B7080 /* PLClassGoodsItem.m */; };
+		76C8C5071F3952D6009B7080 /* PLClassMainItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C8C5061F3952D6009B7080 /* PLClassMainItem.m */; };
+		76C8C50A1F395416009B7080 /* PLFiltrateItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C8C5091F395416009B7080 /* PLFiltrateItem.m */; };
+		76C8C5101F3954FB009B7080 /* PLClassCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C8C50F1F3954FB009B7080 /* PLClassCategoryCell.m */; };
+		76C8C5131F39552C009B7080 /* PLFootprintCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C8C5121F39552C009B7080 /* PLFootprintCell.m */; };
+		76C8C5191F3957E4009B7080 /* PLRecomendItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C8C5181F3957E4009B7080 /* PLRecomendItem.m */; };
+		76C8C51C1F3958F6009B7080 /* PLEmptyCartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C8C51B1F3958F6009B7080 /* PLEmptyCartView.m */; };
+		76C8C51F1F395914009B7080 /* PLRecommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C8C51E1F395914009B7080 /* PLRecommendCell.m */; };
+		76C8C5221F395934009B7080 /* PLRecommendReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C8C5211F395934009B7080 /* PLRecommendReusableView.m */; };
 		DF267FDA7ACCBA8ED852A64E /* libPods-PLMallTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6292AF6760BCA2D5590F1C6 /* libPods-PLMallTests.a */; };
 /* End PBXBuildFile section */
 
@@ -367,6 +384,40 @@
 		76B614021F383E04001286AC /* PLReceiverAddressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLReceiverAddressCell.m; sourceTree = "<group>"; };
 		76B614041F384619001286AC /* PLSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLSettingCell.h; sourceTree = "<group>"; };
 		76B614051F384619001286AC /* PLSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLSettingCell.m; sourceTree = "<group>"; };
+		76C8C4E51F393630009B7080 /* PLChangeNicknameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLChangeNicknameViewController.h; sourceTree = "<group>"; };
+		76C8C4E61F393630009B7080 /* PLChangeNicknameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLChangeNicknameViewController.m; sourceTree = "<group>"; };
+		76C8C4E81F3938DA009B7080 /* PLHelpBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLHelpBackViewController.h; sourceTree = "<group>"; };
+		76C8C4E91F3938DA009B7080 /* PLHelpBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLHelpBackViewController.m; sourceTree = "<group>"; };
+		76C8C4EB1F393F47009B7080 /* PLMyselfMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLMyselfMessageViewController.h; sourceTree = "<group>"; };
+		76C8C4EC1F393F47009B7080 /* PLMyselfMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLMyselfMessageViewController.m; sourceTree = "<group>"; };
+		76C8C4EE1F393F99009B7080 /* PLReceiverAdressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLReceiverAdressViewController.h; sourceTree = "<group>"; };
+		76C8C4EF1F393F99009B7080 /* PLReceiverAdressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLReceiverAdressViewController.m; sourceTree = "<group>"; };
+		76C8C4F11F39511C009B7080 /* PLPersonalCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLPersonalCenterViewController.h; sourceTree = "<group>"; };
+		76C8C4F21F39511C009B7080 /* PLPersonalCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLPersonalCenterViewController.m; sourceTree = "<group>"; };
+		76C8C4F41F395190009B7080 /* PLMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLMessageViewController.h; sourceTree = "<group>"; };
+		76C8C4F51F395190009B7080 /* PLMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLMessageViewController.m; sourceTree = "<group>"; };
+		76C8C4F71F3951A5009B7080 /* PLSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLSettingViewController.h; sourceTree = "<group>"; };
+		76C8C4F81F3951A5009B7080 /* PLSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLSettingViewController.m; sourceTree = "<group>"; };
+		76C8C4FF1F395299009B7080 /* PLClassSubItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLClassSubItem.h; sourceTree = "<group>"; };
+		76C8C5001F395299009B7080 /* PLClassSubItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLClassSubItem.m; sourceTree = "<group>"; };
+		76C8C5021F3952BB009B7080 /* PLClassGoodsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLClassGoodsItem.h; sourceTree = "<group>"; };
+		76C8C5031F3952BB009B7080 /* PLClassGoodsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLClassGoodsItem.m; sourceTree = "<group>"; };
+		76C8C5051F3952D6009B7080 /* PLClassMainItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLClassMainItem.h; sourceTree = "<group>"; };
+		76C8C5061F3952D6009B7080 /* PLClassMainItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLClassMainItem.m; sourceTree = "<group>"; };
+		76C8C5081F395416009B7080 /* PLFiltrateItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLFiltrateItem.h; sourceTree = "<group>"; };
+		76C8C5091F395416009B7080 /* PLFiltrateItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLFiltrateItem.m; sourceTree = "<group>"; };
+		76C8C50E1F3954FB009B7080 /* PLClassCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLClassCategoryCell.h; sourceTree = "<group>"; };
+		76C8C50F1F3954FB009B7080 /* PLClassCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLClassCategoryCell.m; sourceTree = "<group>"; };
+		76C8C5111F39552C009B7080 /* PLFootprintCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLFootprintCell.h; sourceTree = "<group>"; };
+		76C8C5121F39552C009B7080 /* PLFootprintCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLFootprintCell.m; sourceTree = "<group>"; };
+		76C8C5171F3957E4009B7080 /* PLRecomendItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLRecomendItem.h; sourceTree = "<group>"; };
+		76C8C5181F3957E4009B7080 /* PLRecomendItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLRecomendItem.m; sourceTree = "<group>"; };
+		76C8C51A1F3958F6009B7080 /* PLEmptyCartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLEmptyCartView.h; sourceTree = "<group>"; };
+		76C8C51B1F3958F6009B7080 /* PLEmptyCartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLEmptyCartView.m; sourceTree = "<group>"; };
+		76C8C51D1F395914009B7080 /* PLRecommendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLRecommendCell.h; sourceTree = "<group>"; };
+		76C8C51E1F395914009B7080 /* PLRecommendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLRecommendCell.m; sourceTree = "<group>"; };
+		76C8C5201F395934009B7080 /* PLRecommendReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLRecommendReusableView.h; sourceTree = "<group>"; };
+		76C8C5211F395934009B7080 /* PLRecommendReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLRecommendReusableView.m; sourceTree = "<group>"; };
 		7883AB62B1BE15903AB4AF60 /* Pods-PLMallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLMallTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PLMallTests/Pods-PLMallTests.debug.xcconfig"; sourceTree = "<group>"; };
 		94391A5BE84EAD0F6D5AFA60 /* libPods-PLMallUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PLMallUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99220AC15374788F53EA66CF /* Pods-PLMallUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLMallUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PLMallUITests/Pods-PLMallUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -785,6 +836,9 @@
 		7635BC521F34359A008C9448 /* ShoppingCar */ = {
 			isa = PBXGroup;
 			children = (
+				76C8C5161F3957AA009B7080 /* Model */,
+				76C8C5151F3957A2009B7080 /* View */,
+				76C8C5141F395797009B7080 /* Controller */,
 			);
 			path = ShoppingCar;
 			sourceTree = "<group>";
@@ -792,6 +846,9 @@
 		7635BC531F34452D008C9448 /* Classify */ = {
 			isa = PBXGroup;
 			children = (
+				76C8C4FC1F39524E009B7080 /* Model */,
+				76C8C4FB1F395245009B7080 /* View */,
+				76C8C4FA1F395238009B7080 /* Controller */,
 			);
 			path = Classify;
 			sourceTree = "<group>";
@@ -1042,6 +1099,8 @@
 		76B613F11F380A99001286AC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				76C8C4E41F393604009B7080 /* About */,
+				76C8C4E31F3935F5009B7080 /* Main */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -1056,6 +1115,136 @@
 				76B613F81F380FE3001286AC /* PLMySelfHeadView.xib */,
 			);
 			name = MainView;
+			sourceTree = "<group>";
+		};
+		76C8C4E31F3935F5009B7080 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				76C8C4F11F39511C009B7080 /* PLPersonalCenterViewController.h */,
+				76C8C4F21F39511C009B7080 /* PLPersonalCenterViewController.m */,
+				76C8C4F41F395190009B7080 /* PLMessageViewController.h */,
+				76C8C4F51F395190009B7080 /* PLMessageViewController.m */,
+				76C8C4F71F3951A5009B7080 /* PLSettingViewController.h */,
+				76C8C4F81F3951A5009B7080 /* PLSettingViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		76C8C4E41F393604009B7080 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				76C8C4E51F393630009B7080 /* PLChangeNicknameViewController.h */,
+				76C8C4E61F393630009B7080 /* PLChangeNicknameViewController.m */,
+				76C8C4E81F3938DA009B7080 /* PLHelpBackViewController.h */,
+				76C8C4E91F3938DA009B7080 /* PLHelpBackViewController.m */,
+				76C8C4EB1F393F47009B7080 /* PLMyselfMessageViewController.h */,
+				76C8C4EC1F393F47009B7080 /* PLMyselfMessageViewController.m */,
+				76C8C4EE1F393F99009B7080 /* PLReceiverAdressViewController.h */,
+				76C8C4EF1F393F99009B7080 /* PLReceiverAdressViewController.m */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		76C8C4FA1F395238009B7080 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		76C8C4FB1F395245009B7080 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				76C8C50D1F3954AF009B7080 /* CollectionView */,
+				76C8C50C1F3954A2009B7080 /* CustionView */,
+				76C8C50B1F395496009B7080 /* TableViewCell */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		76C8C4FC1F39524E009B7080 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				76C8C4FE1F395270009B7080 /* Main */,
+				76C8C4FD1F39525F009B7080 /* 筛选 */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		76C8C4FD1F39525F009B7080 /* 筛选 */ = {
+			isa = PBXGroup;
+			children = (
+				76C8C5081F395416009B7080 /* PLFiltrateItem.h */,
+				76C8C5091F395416009B7080 /* PLFiltrateItem.m */,
+			);
+			name = "筛选";
+			sourceTree = "<group>";
+		};
+		76C8C4FE1F395270009B7080 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				76C8C4FF1F395299009B7080 /* PLClassSubItem.h */,
+				76C8C5001F395299009B7080 /* PLClassSubItem.m */,
+				76C8C5021F3952BB009B7080 /* PLClassGoodsItem.h */,
+				76C8C5031F3952BB009B7080 /* PLClassGoodsItem.m */,
+				76C8C5051F3952D6009B7080 /* PLClassMainItem.h */,
+				76C8C5061F3952D6009B7080 /* PLClassMainItem.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		76C8C50B1F395496009B7080 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				76C8C50E1F3954FB009B7080 /* PLClassCategoryCell.h */,
+				76C8C50F1F3954FB009B7080 /* PLClassCategoryCell.m */,
+				76C8C5111F39552C009B7080 /* PLFootprintCell.h */,
+				76C8C5121F39552C009B7080 /* PLFootprintCell.m */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		76C8C50C1F3954A2009B7080 /* CustionView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CustionView;
+			sourceTree = "<group>";
+		};
+		76C8C50D1F3954AF009B7080 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
+		76C8C5141F395797009B7080 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		76C8C5151F3957A2009B7080 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				76C8C51A1F3958F6009B7080 /* PLEmptyCartView.h */,
+				76C8C51B1F3958F6009B7080 /* PLEmptyCartView.m */,
+				76C8C51D1F395914009B7080 /* PLRecommendCell.h */,
+				76C8C51E1F395914009B7080 /* PLRecommendCell.m */,
+				76C8C5201F395934009B7080 /* PLRecommendReusableView.h */,
+				76C8C5211F395934009B7080 /* PLRecommendReusableView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		76C8C5161F3957AA009B7080 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				76C8C5171F3957E4009B7080 /* PLRecomendItem.h */,
+				76C8C5181F3957E4009B7080 /* PLRecomendItem.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		85D921C81A04020FE73FC8A3 /* Pods */ = {
@@ -1393,14 +1582,17 @@
 				7635BC181F33FF9A008C9448 /* ScanResultViewController.m in Sources */,
 				7635BC0B1F33FF9A008C9448 /* LBXScanLineAnimation.m in Sources */,
 				7635BC3B1F33FF9A008C9448 /* XWFilterAnimator.m in Sources */,
+				76C8C50A1F395416009B7080 /* PLFiltrateItem.m in Sources */,
 				7635BC401F34051D008C9448 /* PLKeepNewUserData.m in Sources */,
 				76B613EC1F3809E7001286AC /* PLFlowItem.m in Sources */,
 				7635BB721F33FEE1008C9448 /* PLLIRLButton.m in Sources */,
 				7635BC071F33FF9A008C9448 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				76B613E91F3808CF001286AC /* PLAddressItem.m in Sources */,
 				769EF77F1F32FF4A00F0BD37 /* BaseTabBarController.m in Sources */,
+				76C8C4EA1F3938DA009B7080 /* PLHelpBackViewController.m in Sources */,
 				76B613EF1F380A35001286AC /* PLMessageItem.m in Sources */,
 				769EF77C1F32FF1F00F0BD37 /* BaseNavigationController.m in Sources */,
+				76C8C4F91F3951A5009B7080 /* PLSettingViewController.m in Sources */,
 				7635BC1F1F33FF9A008C9448 /* UIViewController+XWTransition.m in Sources */,
 				7635BC381F33FF9A008C9448 /* XWFilterAnimator+XWPageCurl.m in Sources */,
 				76B613F91F380FE3001286AC /* PLMySelfHeadView.m in Sources */,
@@ -1412,6 +1604,7 @@
 				769EF8821F33137900F0BD37 /* UIImage+PLCircle.m in Sources */,
 				7635BC5D1F344659008C9448 /* PLHoverNavView.m in Sources */,
 				7635BC591F3445C6008C9448 /* PLGridItem.m in Sources */,
+				76C8C5101F3954FB009B7080 /* PLClassCategoryCell.m in Sources */,
 				7635BC041F33FF9A008C9448 /* WJYAlertView.m in Sources */,
 				7635BC0E1F33FF9A008C9448 /* LBXScanResult.m in Sources */,
 				7635BC2F1F33FF9A008C9448 /* XWCoolAnimator+XWScanning.m in Sources */,
@@ -1428,9 +1621,11 @@
 				7635BC091F33FF9A008C9448 /* PPNumberButton.m in Sources */,
 				7635BC281F33FF9A008C9448 /* XWCircleSpreadAnimator.m in Sources */,
 				7635BC051F33FF9A008C9448 /* JKDBHelper.m in Sources */,
+				76C8C5041F3952BB009B7080 /* PLClassGoodsItem.m in Sources */,
 				7635BC2B1F33FF9A008C9448 /* XWCoolAnimator+XWLines.m in Sources */,
 				7635BC291F33FF9A008C9448 /* XWCoolAnimator+XWExplode.m in Sources */,
 				7635BB661F33F66C008C9448 /* PLConsts.m in Sources */,
+				76C8C4ED1F393F47009B7080 /* PLMyselfMessageViewController.m in Sources */,
 				76B613E61F3807B9001286AC /* PLHandPickViewController.m in Sources */,
 				7635BC311F33FF9A008C9448 /* XWDrawerAnimator.m in Sources */,
 				76B614061F384619001286AC /* PLSettingCell.m in Sources */,
@@ -1441,7 +1636,9 @@
 				769EF8851F3316C100F0BD37 /* UIImageView+PLExtension.m in Sources */,
 				76B614001F383AC3001286AC /* PLMessageNoteCell.m in Sources */,
 				76B613E31F3806DB001286AC /* PLZuoWenRightButton.m in Sources */,
+				76C8C4E71F393630009B7080 /* PLChangeNicknameViewController.m in Sources */,
 				769EF6D91F32F1FD00F0BD37 /* AppDelegate.m in Sources */,
+				76C8C4F31F39511C009B7080 /* PLPersonalCenterViewController.m in Sources */,
 				7635BC481F340775008C9448 /* PLSelPhotos.m in Sources */,
 				7635BC321F33FF9A008C9448 /* XWFilterAnimator+XWBarSwipe.m in Sources */,
 				7635BC081F33FF9A008C9448 /* GQGesVCTransition.m in Sources */,
@@ -1450,26 +1647,35 @@
 				7635BC251F33FF9A008C9448 /* SDBrowserImageView.m in Sources */,
 				7635BB6F1F33FEBE008C9448 /* PLCustionButton.m in Sources */,
 				7635BC301F33FF9A008C9448 /* XWCoolAnimator.m in Sources */,
+				76C8C5131F39552C009B7080 /* PLFootprintCell.m in Sources */,
 				769EF6D61F32F1FD00F0BD37 /* main.m in Sources */,
 				7635BC0F1F33FF9A008C9448 /* LBXScanVideoZoomView.m in Sources */,
 				7635BC1C1F33FF9A008C9448 /* UIAlertView+LBXAlertAction.m in Sources */,
 				7635BC141F33FF9A008C9448 /* LBXZXCapture.m in Sources */,
 				7635BC361F33FF9A008C9448 /* XWFilterAnimator+XWMask.m in Sources */,
+				76C8C5191F3957E4009B7080 /* PLRecomendItem.m in Sources */,
 				7635BC061F33FF9A008C9448 /* JKDBModel.m in Sources */,
 				7635BC1A1F33FF9A008C9448 /* SubLBXScanViewController.m in Sources */,
 				7635BC1E1F33FF9A008C9448 /* UIView+Snapshot.m in Sources */,
+				76C8C4F01F393F99009B7080 /* PLReceiverAdressViewController.m in Sources */,
 				7635BC3D1F33FF9A008C9448 /* XWMagicMoveAnimator.m in Sources */,
+				76C8C5011F395299009B7080 /* PLClassSubItem.m in Sources */,
 				7635BC151F33FF9A008C9448 /* ZXingWrapper.m in Sources */,
 				76B614031F383E04001286AC /* PLReceiverAddressCell.m in Sources */,
+				76C8C51F1F395914009B7080 /* PLRecommendCell.m in Sources */,
 				7635BC341F33FF9A008C9448 /* XWFilterAnimator+XWCopyMachine.m in Sources */,
 				7635BC2A1F33FF9A008C9448 /* XWCoolAnimator+XWFold.m in Sources */,
+				76C8C5071F3952D6009B7080 /* PLClassMainItem.m in Sources */,
 				7635BB751F33FEF7008C9448 /* PLUpDownButton.m in Sources */,
 				769EF87F1F330E2D00F0BD37 /* UIBarButtonItem+PLBarButtonItem.m in Sources */,
 				7635BC021F33FF9A008C9448 /* AddressPickerView.m in Sources */,
 				7635BC601F344B94008C9448 /* PLNavSearchBarView.m in Sources */,
 				7635BC331F33FF9A008C9448 /* XWFilterAnimator+XWBoxBlur.m in Sources */,
+				76C8C4F61F395190009B7080 /* PLMessageViewController.m in Sources */,
+				76C8C51C1F3958F6009B7080 /* PLEmptyCartView.m in Sources */,
 				7635BC1B1F33FF9A008C9448 /* UIActionSheet+LBXAlertAction.m in Sources */,
 				7635BC121F33FF9A008C9448 /* LBXScanViewStyle.m in Sources */,
+				76C8C5221F395934009B7080 /* PLRecommendReusableView.m in Sources */,
 				7635BC371F33FF9A008C9448 /* XWFilterAnimator+XWMod.m in Sources */,
 				7635BC631F3457A0008C9448 /* PLNumericalScrollView.m in Sources */,
 				7635BC131F33FF9A008C9448 /* LBXScanWrapper.m in Sources */,
