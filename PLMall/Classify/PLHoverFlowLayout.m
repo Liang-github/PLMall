@@ -1,0 +1,87 @@
+//
+//  PLHoverFlowLayout.m
+//  PLMall
+//
+//  Created by PengLiang on 2017/8/9.
+//  Copyright © 2017年 PengLiang. All rights reserved.
+//
+
+#import "PLHoverFlowLayout.h"
+
+@interface PLHoverFlowLayout ()
+
+@property (nonatomic, assign) CGFloat navHeight;
+@end
+@implementation PLHoverFlowLayout
+
+#pragma mark - initialize
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        self.navHeight = 0;
+    }
+    return self;
+}
+
+- (NSArray *)layoutAttributesForElementsInRect:(CGRect)rect {
+    NSMutableArray *superArray = [[super layoutAttributesForElementsInRect:rect] mutableCopy];
+    NSMutableIndexSet *noneHeaderSections = [NSMutableIndexSet indexSet];
+    
+    for (UICollectionViewLayoutAttributes *attributes in superArray) {
+        if (attributes.representedElementCategory == UICollectionElementCategoryCell) {
+            [noneHeaderSections addIndex:attributes.indexPath.section];
+        }
+    }
+    for (UICollectionViewLayoutAttributes *attributes in superArray) {
+        if ([attributes.representedElementKind isEqualToString:UICollectionElementKindSectionHeader]) {
+            [noneHeaderSections removeIndex:attributes.indexPath.section];
+        }
+    }
+    [noneHeaderSections enumerateIndexesUsingBlock:^(NSUInteger idx, BOOL * _Nonnull stop) {
+        NSIndexPath *indexPath = [NSIndexPath indexPathForItem:0 inSection:idx];
+        UICollectionViewLayoutAttributes *attributes = [self layoutAttributesForSupplementaryViewOfKind:UICollectionElementKindSectionHeader atIndexPath:indexPath];
+        
+        if (attributes) {
+            [superArray addObject:attributes];
+        }
+    }];
+    
+    for (UICollectionViewLayoutAttributes *attributes in superArray) {
+        if ([attributes.representedElementKind isEqualToString:UICollectionElementKindSectionHeader]) {
+            NSInteger numberOfItemsInSection = [self.collectionView numberOfItemsInSection:attributes.indexPath.section];
+            
+            NSIndexPath *firstItemIndexPath = [NSIndexPath indexPathForItem:0 inSection:attributes.indexPath.section];
+            NSIndexPath *lastItemIndexPath = [NSIndexPath indexPathForItem:MAX(0, numberOfItemsInSection - 1) inSection:attributes.indexPath.section];
+            
+            UICollectionViewLayoutAttributes *firstItemAttributes, *lastItemAttributes;
+            if (numberOfItemsInSection > 0) {
+                firstItemAttributes = [self layoutAttributesForItemAtIndexPath:firstItemIndexPath];
+                lastItemAttributes = [self layoutAttributesForItemAtIndexPath:lastItemIndexPath];
+            } else {
+                firstItemAttributes = [UICollectionViewLayoutAttributes new];
+                CGFloat y = CGRectGetMaxY(attributes.frame) + self.sectionInset.top;
+                firstItemAttributes.frame = CGRectMake(0, y, 0, 0);
+                lastItemAttributes = firstItemAttributes;
+            }
+            
+            CGRect rect = attributes.frame;
+            CGFloat offset = self.collectionView.contentOffset.y + self.navHeight;
+            CGFloat headerY = firstItemAttributes.frame.origin.y - rect.size.height - self.sectionInset.top;
+            
+            CGFloat maxY = MAX(offset, headerY);
+            
+            CGFloat headerMissingY = CGRectGetMaxY(lastItemAttributes.frame) + self.sectionInset.bottom - rect.size.height;
+            
+            rect.origin.y = MIN(maxY, headerMissingY);
+            attributes.frame = rect;
+            attributes.zIndex = 7;
+        }
+    }
+    return [superArray copy];
+    
+}
+#pragma mark - 调用layoutAttributesForElementsInRect
+- (BOOL)shouldInvalidateLayoutForBoundsChange:(CGRect)newBounds {
+    return YES;
+}
+@end

@@ -175,6 +175,10 @@
 		76D868891F3AE01F00B51DF4 /* PLDetailShufflingHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D868881F3AE01F00B51DF4 /* PLDetailShufflingHeadView.m */; };
 		76D8688C1F3AE03600B51DF4 /* PLFeatureHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D8688B1F3AE03600B51DF4 /* PLFeatureHeaderView.m */; };
 		76D8688F1F3AE45D00B51DF4 /* PLDetailOverFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D8688E1F3AE45D00B51DF4 /* PLDetailOverFooterView.m */; };
+		76D868941F3AEB1B00B51DF4 /* PLFiltrateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D868931F3AEB1B00B51DF4 /* PLFiltrateViewController.m */; };
+		76D868971F3AEDAD00B51DF4 /* PLColonInsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D868961F3AEDAD00B51DF4 /* PLColonInsView.m */; };
+		76D8689A1F3AEDCA00B51DF4 /* PLCustionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D868991F3AEDCA00B51DF4 /* PLCustionHeadView.m */; };
+		76D8689D1F3AEDED00B51DF4 /* PLHoverFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D8689C1F3AEDED00B51DF4 /* PLHoverFlowLayout.m */; };
 		DF267FDA7ACCBA8ED852A64E /* libPods-PLMallTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6292AF6760BCA2D5590F1C6 /* libPods-PLMallTests.a */; };
 /* End PBXBuildFile section */
 
@@ -508,6 +512,14 @@
 		76D8688B1F3AE03600B51DF4 /* PLFeatureHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLFeatureHeaderView.m; sourceTree = "<group>"; };
 		76D8688D1F3AE45D00B51DF4 /* PLDetailOverFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLDetailOverFooterView.h; sourceTree = "<group>"; };
 		76D8688E1F3AE45D00B51DF4 /* PLDetailOverFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLDetailOverFooterView.m; sourceTree = "<group>"; };
+		76D868921F3AEB1B00B51DF4 /* PLFiltrateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLFiltrateViewController.h; sourceTree = "<group>"; };
+		76D868931F3AEB1B00B51DF4 /* PLFiltrateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLFiltrateViewController.m; sourceTree = "<group>"; };
+		76D868951F3AEDAD00B51DF4 /* PLColonInsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLColonInsView.h; sourceTree = "<group>"; };
+		76D868961F3AEDAD00B51DF4 /* PLColonInsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLColonInsView.m; sourceTree = "<group>"; };
+		76D868981F3AEDCA00B51DF4 /* PLCustionHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCustionHeadView.h; sourceTree = "<group>"; };
+		76D868991F3AEDCA00B51DF4 /* PLCustionHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLCustionHeadView.m; sourceTree = "<group>"; };
+		76D8689B1F3AEDED00B51DF4 /* PLHoverFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLHoverFlowLayout.h; sourceTree = "<group>"; };
+		76D8689C1F3AEDED00B51DF4 /* PLHoverFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLHoverFlowLayout.m; sourceTree = "<group>"; };
 		7883AB62B1BE15903AB4AF60 /* Pods-PLMallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLMallTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PLMallTests/Pods-PLMallTests.debug.xcconfig"; sourceTree = "<group>"; };
 		94391A5BE84EAD0F6D5AFA60 /* libPods-PLMallUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PLMallUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99220AC15374788F53EA66CF /* Pods-PLMallUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLMallUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PLMallUITests/Pods-PLMallUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -1241,6 +1253,8 @@
 		76C8C4FA1F395238009B7080 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				76D868911F3AEAF200B51DF4 /* Main */,
+				76D868901F3AEAE700B51DF4 /* ShowView */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -1300,6 +1314,12 @@
 		76C8C50C1F3954A2009B7080 /* CustionView */ = {
 			isa = PBXGroup;
 			children = (
+				76D868951F3AEDAD00B51DF4 /* PLColonInsView.h */,
+				76D868961F3AEDAD00B51DF4 /* PLColonInsView.m */,
+				76D868981F3AEDCA00B51DF4 /* PLCustionHeadView.h */,
+				76D868991F3AEDCA00B51DF4 /* PLCustionHeadView.m */,
+				76D8689B1F3AEDED00B51DF4 /* PLHoverFlowLayout.h */,
+				76D8689C1F3AEDED00B51DF4 /* PLHoverFlowLayout.m */,
 			);
 			name = CustionView;
 			sourceTree = "<group>";
@@ -1547,6 +1567,22 @@
 				76D868821F3AD9C400B51DF4 /* PLDetailLikeItemCell.m */,
 			);
 			name = "推荐Cell";
+			sourceTree = "<group>";
+		};
+		76D868901F3AEAE700B51DF4 /* ShowView */ = {
+			isa = PBXGroup;
+			children = (
+				76D868921F3AEB1B00B51DF4 /* PLFiltrateViewController.h */,
+				76D868931F3AEB1B00B51DF4 /* PLFiltrateViewController.m */,
+			);
+			name = ShowView;
+			sourceTree = "<group>";
+		};
+		76D868911F3AEAF200B51DF4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 		85D921C81A04020FE73FC8A3 /* Pods */ = {
@@ -1929,6 +1965,7 @@
 				7635BC451F3405F8008C9448 /* PLUserInfo.m in Sources */,
 				76C8C5311F39945C009B7080 /* PLFeatureItem.m in Sources */,
 				7635BC211F33FF9A008C9448 /* XWTransitionAnimator.m in Sources */,
+				76D868941F3AEB1B00B51DF4 /* PLFiltrateViewController.m in Sources */,
 				7635BC2D1F33FF9A008C9448 /* XWCoolAnimator+XWPageFlip.m in Sources */,
 				7635BC171F33FF9A008C9448 /* MyQRViewController.m in Sources */,
 				7635BC091F33FF9A008C9448 /* PPNumberButton.m in Sources */,
@@ -1961,7 +1998,9 @@
 				7635BC481F340775008C9448 /* PLSelPhotos.m in Sources */,
 				7635BC321F33FF9A008C9448 /* XWFilterAnimator+XWBarSwipe.m in Sources */,
 				7635BC081F33FF9A008C9448 /* GQGesVCTransition.m in Sources */,
+				76D868971F3AEDAD00B51DF4 /* PLColonInsView.m in Sources */,
 				7635BC2C1F33FF9A008C9448 /* XWCoolAnimator+XWMiddlePageFlip.m in Sources */,
+				76D8689A1F3AEDCA00B51DF4 /* PLCustionHeadView.m in Sources */,
 				7635BC111F33FF9A008C9448 /* LBXScanViewController.m in Sources */,
 				7635BC251F33FF9A008C9448 /* SDBrowserImageView.m in Sources */,
 				7635BB6F1F33FEBE008C9448 /* PLCustionButton.m in Sources */,
@@ -2003,6 +2042,7 @@
 				76D8684B1F3A8A6600B51DF4 /* PLFeatureItemCell.m in Sources */,
 				76C8C4F61F395190009B7080 /* PLMessageViewController.m in Sources */,
 				76C8C51C1F3958F6009B7080 /* PLEmptyCartView.m in Sources */,
+				76D8689D1F3AEDED00B51DF4 /* PLHoverFlowLayout.m in Sources */,
 				7635BC1B1F33FF9A008C9448 /* UIActionSheet+LBXAlertAction.m in Sources */,
 				76D8685F1F3A8EF600B51DF4 /* PLCommentHeaderCell.m in Sources */,
 				7635BC121F33FF9A008C9448 /* LBXScanViewStyle.m in Sources */,

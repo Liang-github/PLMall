@@ -10,6 +10,7 @@
 
 //Controllers
 #import "BaseNavigationController.h"
+#import "PLMessageViewController.h"
 
 @interface PLHandPickViewController ()
 
