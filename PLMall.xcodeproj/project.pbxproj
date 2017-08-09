@@ -153,6 +153,15 @@
 		76C8C53D1F3997D8009B7080 /* PLShareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C8C53C1F3997D8009B7080 /* PLShareItem.m */; };
 		76C8C5431F399858009B7080 /* PLFeatureChoseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C8C5421F399858009B7080 /* PLFeatureChoseCell.m */; };
 		76C8C5461F399C4A009B7080 /* PLCollectionHeaderLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C8C5451F399C4A009B7080 /* PLCollectionHeaderLayout.m */; };
+		76D8684B1F3A8A6600B51DF4 /* PLFeatureItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D8684A1F3A8A6600B51DF4 /* PLFeatureItemCell.m */; };
+		76D8684E1F3A8C0600B51DF4 /* PLShareItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D8684D1F3A8C0600B51DF4 /* PLShareItemCell.m */; };
+		76D868561F3A8E4E00B51DF4 /* PLCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D868551F3A8E4E00B51DF4 /* PLCommentCell.m */; };
+		76D868591F3A8E7800B51DF4 /* PLCommentContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D868581F3A8E7800B51DF4 /* PLCommentContentCell.m */; };
+		76D8685C1F3A8E9500B51DF4 /* PLCommentFooterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D8685B1F3A8E9500B51DF4 /* PLCommentFooterCell.m */; };
+		76D8685F1F3A8EF600B51DF4 /* PLCommentHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D8685E1F3A8EF600B51DF4 /* PLCommentHeaderCell.m */; };
+		76D868621F3A8F1700B51DF4 /* PLCommentPicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D868611F3A8F1700B51DF4 /* PLCommentPicCell.m */; };
+		76D868651F3A8F3F00B51DF4 /* PLDetailPartCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D868641F3A8F3F00B51DF4 /* PLDetailPartCommentCell.m */; };
+		76D868681F3A8F6500B51DF4 /* PLPartCommentHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D868671F3A8F6500B51DF4 /* PLPartCommentHeadView.m */; };
 		DF267FDA7ACCBA8ED852A64E /* libPods-PLMallTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6292AF6760BCA2D5590F1C6 /* libPods-PLMallTests.a */; };
 /* End PBXBuildFile section */
 
@@ -442,6 +451,24 @@
 		76C8C5421F399858009B7080 /* PLFeatureChoseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLFeatureChoseCell.m; sourceTree = "<group>"; };
 		76C8C5441F399C4A009B7080 /* PLCollectionHeaderLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCollectionHeaderLayout.h; sourceTree = "<group>"; };
 		76C8C5451F399C4A009B7080 /* PLCollectionHeaderLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLCollectionHeaderLayout.m; sourceTree = "<group>"; };
+		76D868491F3A8A6600B51DF4 /* PLFeatureItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLFeatureItemCell.h; sourceTree = "<group>"; };
+		76D8684A1F3A8A6600B51DF4 /* PLFeatureItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLFeatureItemCell.m; sourceTree = "<group>"; };
+		76D8684C1F3A8C0600B51DF4 /* PLShareItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLShareItemCell.h; sourceTree = "<group>"; };
+		76D8684D1F3A8C0600B51DF4 /* PLShareItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLShareItemCell.m; sourceTree = "<group>"; };
+		76D868541F3A8E4E00B51DF4 /* PLCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCommentCell.h; sourceTree = "<group>"; };
+		76D868551F3A8E4E00B51DF4 /* PLCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLCommentCell.m; sourceTree = "<group>"; };
+		76D868571F3A8E7800B51DF4 /* PLCommentContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCommentContentCell.h; sourceTree = "<group>"; };
+		76D868581F3A8E7800B51DF4 /* PLCommentContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLCommentContentCell.m; sourceTree = "<group>"; };
+		76D8685A1F3A8E9500B51DF4 /* PLCommentFooterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCommentFooterCell.h; sourceTree = "<group>"; };
+		76D8685B1F3A8E9500B51DF4 /* PLCommentFooterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLCommentFooterCell.m; sourceTree = "<group>"; };
+		76D8685D1F3A8EF600B51DF4 /* PLCommentHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCommentHeaderCell.h; sourceTree = "<group>"; };
+		76D8685E1F3A8EF600B51DF4 /* PLCommentHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLCommentHeaderCell.m; sourceTree = "<group>"; };
+		76D868601F3A8F1700B51DF4 /* PLCommentPicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCommentPicCell.h; sourceTree = "<group>"; };
+		76D868611F3A8F1700B51DF4 /* PLCommentPicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLCommentPicCell.m; sourceTree = "<group>"; };
+		76D868631F3A8F3F00B51DF4 /* PLDetailPartCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLDetailPartCommentCell.h; sourceTree = "<group>"; };
+		76D868641F3A8F3F00B51DF4 /* PLDetailPartCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLDetailPartCommentCell.m; sourceTree = "<group>"; };
+		76D868661F3A8F6500B51DF4 /* PLPartCommentHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLPartCommentHeadView.h; sourceTree = "<group>"; };
+		76D868671F3A8F6500B51DF4 /* PLPartCommentHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLPartCommentHeadView.m; sourceTree = "<group>"; };
 		7883AB62B1BE15903AB4AF60 /* Pods-PLMallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLMallTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PLMallTests/Pods-PLMallTests.debug.xcconfig"; sourceTree = "<group>"; };
 		94391A5BE84EAD0F6D5AFA60 /* libPods-PLMallUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PLMallUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99220AC15374788F53EA66CF /* Pods-PLMallUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLMallUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PLMallUITests/Pods-PLMallUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -1355,8 +1382,106 @@
 		76C8C5401F399834009B7080 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				76D868481F3A8A3E00B51DF4 /* Footer */,
+				76D868471F3A8A3500B51DF4 /* Header */,
+				76D868461F3A8A2D00B51DF4 /* Main */,
+				76D868451F3A8A2400B51DF4 /* 分享 */,
+				76D868441F3A8A1500B51DF4 /* 属性选择 */,
 			);
 			name = CollectionView;
+			sourceTree = "<group>";
+		};
+		76D868441F3A8A1500B51DF4 /* 属性选择 */ = {
+			isa = PBXGroup;
+			children = (
+				76D868491F3A8A6600B51DF4 /* PLFeatureItemCell.h */,
+				76D8684A1F3A8A6600B51DF4 /* PLFeatureItemCell.m */,
+			);
+			name = "属性选择";
+			sourceTree = "<group>";
+		};
+		76D868451F3A8A2400B51DF4 /* 分享 */ = {
+			isa = PBXGroup;
+			children = (
+				76D8684C1F3A8C0600B51DF4 /* PLShareItemCell.h */,
+				76D8684D1F3A8C0600B51DF4 /* PLShareItemCell.m */,
+			);
+			name = "分享";
+			sourceTree = "<group>";
+		};
+		76D868461F3A8A2D00B51DF4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				76D868531F3A8E1600B51DF4 /* 推荐Cell */,
+				76D868521F3A8E0E00B51DF4 /* 服务Cell */,
+				76D868511F3A8E0100B51DF4 /* 标题Cell */,
+				76D868501F3A8DF700B51DF4 /* 自定义Cell */,
+				76D8684F1F3A8DE500B51DF4 /* 评论Cell */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		76D868471F3A8A3500B51DF4 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
+		76D868481F3A8A3E00B51DF4 /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Footer;
+			sourceTree = "<group>";
+		};
+		76D8684F1F3A8DE500B51DF4 /* 评论Cell */ = {
+			isa = PBXGroup;
+			children = (
+				76D868541F3A8E4E00B51DF4 /* PLCommentCell.h */,
+				76D868551F3A8E4E00B51DF4 /* PLCommentCell.m */,
+				76D868571F3A8E7800B51DF4 /* PLCommentContentCell.h */,
+				76D868581F3A8E7800B51DF4 /* PLCommentContentCell.m */,
+				76D8685A1F3A8E9500B51DF4 /* PLCommentFooterCell.h */,
+				76D8685B1F3A8E9500B51DF4 /* PLCommentFooterCell.m */,
+				76D8685D1F3A8EF600B51DF4 /* PLCommentHeaderCell.h */,
+				76D8685E1F3A8EF600B51DF4 /* PLCommentHeaderCell.m */,
+				76D868601F3A8F1700B51DF4 /* PLCommentPicCell.h */,
+				76D868611F3A8F1700B51DF4 /* PLCommentPicCell.m */,
+				76D868631F3A8F3F00B51DF4 /* PLDetailPartCommentCell.h */,
+				76D868641F3A8F3F00B51DF4 /* PLDetailPartCommentCell.m */,
+				76D868661F3A8F6500B51DF4 /* PLPartCommentHeadView.h */,
+				76D868671F3A8F6500B51DF4 /* PLPartCommentHeadView.m */,
+			);
+			name = "评论Cell";
+			sourceTree = "<group>";
+		};
+		76D868501F3A8DF700B51DF4 /* 自定义Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "自定义Cell";
+			sourceTree = "<group>";
+		};
+		76D868511F3A8E0100B51DF4 /* 标题Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "标题Cell";
+			sourceTree = "<group>";
+		};
+		76D868521F3A8E0E00B51DF4 /* 服务Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "服务Cell";
+			sourceTree = "<group>";
+		};
+		76D868531F3A8E1600B51DF4 /* 推荐Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "推荐Cell";
 			sourceTree = "<group>";
 		};
 		85D921C81A04020FE73FC8A3 /* Pods */ = {
@@ -1700,11 +1825,13 @@
 				7635BB721F33FEE1008C9448 /* PLLIRLButton.m in Sources */,
 				7635BC071F33FF9A008C9448 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				76B613E91F3808CF001286AC /* PLAddressItem.m in Sources */,
+				76D8685C1F3A8E9500B51DF4 /* PLCommentFooterCell.m in Sources */,
 				769EF77F1F32FF4A00F0BD37 /* BaseTabBarController.m in Sources */,
 				76C8C4EA1F3938DA009B7080 /* PLHelpBackViewController.m in Sources */,
 				76B613EF1F380A35001286AC /* PLMessageItem.m in Sources */,
 				769EF77C1F32FF1F00F0BD37 /* BaseNavigationController.m in Sources */,
 				76C8C4F91F3951A5009B7080 /* PLSettingViewController.m in Sources */,
+				76D868561F3A8E4E00B51DF4 /* PLCommentCell.m in Sources */,
 				7635BC1F1F33FF9A008C9448 /* UIViewController+XWTransition.m in Sources */,
 				7635BC381F33FF9A008C9448 /* XWFilterAnimator+XWPageCurl.m in Sources */,
 				76B613F91F380FE3001286AC /* PLMySelfHeadView.m in Sources */,
@@ -1752,6 +1879,7 @@
 				76B614001F383AC3001286AC /* PLMessageNoteCell.m in Sources */,
 				76B613E31F3806DB001286AC /* PLZuoWenRightButton.m in Sources */,
 				76C8C4E71F393630009B7080 /* PLChangeNicknameViewController.m in Sources */,
+				76D868621F3A8F1700B51DF4 /* PLCommentPicCell.m in Sources */,
 				769EF6D91F32F1FD00F0BD37 /* AppDelegate.m in Sources */,
 				76C8C5341F399478009B7080 /* PLFeatureList.m in Sources */,
 				76C8C4F31F39511C009B7080 /* PLPersonalCenterViewController.m in Sources */,
@@ -1765,10 +1893,12 @@
 				7635BC301F33FF9A008C9448 /* XWCoolAnimator.m in Sources */,
 				76C8C5131F39552C009B7080 /* PLFootprintCell.m in Sources */,
 				769EF6D61F32F1FD00F0BD37 /* main.m in Sources */,
+				76D868591F3A8E7800B51DF4 /* PLCommentContentCell.m in Sources */,
 				7635BC0F1F33FF9A008C9448 /* LBXScanVideoZoomView.m in Sources */,
 				7635BC1C1F33FF9A008C9448 /* UIAlertView+LBXAlertAction.m in Sources */,
 				7635BC141F33FF9A008C9448 /* LBXZXCapture.m in Sources */,
 				7635BC361F33FF9A008C9448 /* XWFilterAnimator+XWMask.m in Sources */,
+				76D8684E1F3A8C0600B51DF4 /* PLShareItemCell.m in Sources */,
 				76C8C5191F3957E4009B7080 /* PLRecomendItem.m in Sources */,
 				76C8C53A1F39973A009B7080 /* PLCommentPicItem.m in Sources */,
 				7635BC061F33FF9A008C9448 /* JKDBModel.m in Sources */,
@@ -1778,6 +1908,7 @@
 				76C8C4F01F393F99009B7080 /* PLReceiverAdressViewController.m in Sources */,
 				7635BC3D1F33FF9A008C9448 /* XWMagicMoveAnimator.m in Sources */,
 				76C8C5011F395299009B7080 /* PLClassSubItem.m in Sources */,
+				76D868651F3A8F3F00B51DF4 /* PLDetailPartCommentCell.m in Sources */,
 				7635BC151F33FF9A008C9448 /* ZXingWrapper.m in Sources */,
 				76C8C5461F399C4A009B7080 /* PLCollectionHeaderLayout.m in Sources */,
 				76B614031F383E04001286AC /* PLReceiverAddressCell.m in Sources */,
@@ -1791,14 +1922,17 @@
 				7635BC021F33FF9A008C9448 /* AddressPickerView.m in Sources */,
 				7635BC601F344B94008C9448 /* PLNavSearchBarView.m in Sources */,
 				7635BC331F33FF9A008C9448 /* XWFilterAnimator+XWBoxBlur.m in Sources */,
+				76D8684B1F3A8A6600B51DF4 /* PLFeatureItemCell.m in Sources */,
 				76C8C4F61F395190009B7080 /* PLMessageViewController.m in Sources */,
 				76C8C51C1F3958F6009B7080 /* PLEmptyCartView.m in Sources */,
 				7635BC1B1F33FF9A008C9448 /* UIActionSheet+LBXAlertAction.m in Sources */,
+				76D8685F1F3A8EF600B51DF4 /* PLCommentHeaderCell.m in Sources */,
 				7635BC121F33FF9A008C9448 /* LBXScanViewStyle.m in Sources */,
 				76C8C5221F395934009B7080 /* PLRecommendReusableView.m in Sources */,
 				7635BC371F33FF9A008C9448 /* XWFilterAnimator+XWMod.m in Sources */,
 				7635BC631F3457A0008C9448 /* PLNumericalScrollView.m in Sources */,
 				7635BC131F33FF9A008C9448 /* LBXScanWrapper.m in Sources */,
+				76D868681F3A8F6500B51DF4 /* PLPartCommentHeadView.m in Sources */,
 				7635BC3A1F33FF9A008C9448 /* XWFilterAnimator+XWSwipe.m in Sources */,
 				7635BC271F33FF9A008C9448 /* SDWaitingView.m in Sources */,
 			);
