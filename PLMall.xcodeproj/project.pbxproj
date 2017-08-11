@@ -155,6 +155,7 @@
 		76C669E91F3D56C100149D47 /* PLGoodsHandheldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C669E81F3D56C100149D47 /* PLGoodsHandheldCell.m */; };
 		76C669EC1F3D56DE00149D47 /* PLGoodsSurplusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C669EB1F3D56DE00149D47 /* PLGoodsSurplusCell.m */; };
 		76C669EF1F3D56F900149D47 /* PLGoodsYouLikeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C669EE1F3D56F900149D47 /* PLGoodsYouLikeCell.m */; };
+		76C669F21F3DA60600149D47 /* PLCommodityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C669F11F3DA60600149D47 /* PLCommodityViewController.m */; };
 		76C8C4E71F393630009B7080 /* PLChangeNicknameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C8C4E61F393630009B7080 /* PLChangeNicknameViewController.m */; };
 		76C8C4EA1F3938DA009B7080 /* PLHelpBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C8C4E91F3938DA009B7080 /* PLHelpBackViewController.m */; };
 		76C8C4ED1F393F47009B7080 /* PLMyselfMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C8C4EC1F393F47009B7080 /* PLMyselfMessageViewController.m */; };
@@ -501,6 +502,8 @@
 		76C669EB1F3D56DE00149D47 /* PLGoodsSurplusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLGoodsSurplusCell.m; sourceTree = "<group>"; };
 		76C669ED1F3D56F900149D47 /* PLGoodsYouLikeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLGoodsYouLikeCell.h; sourceTree = "<group>"; };
 		76C669EE1F3D56F900149D47 /* PLGoodsYouLikeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLGoodsYouLikeCell.m; sourceTree = "<group>"; };
+		76C669F01F3DA60600149D47 /* PLCommodityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCommodityViewController.h; sourceTree = "<group>"; };
+		76C669F11F3DA60600149D47 /* PLCommodityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLCommodityViewController.m; sourceTree = "<group>"; };
 		76C8C4E51F393630009B7080 /* PLChangeNicknameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLChangeNicknameViewController.h; sourceTree = "<group>"; };
 		76C8C4E61F393630009B7080 /* PLChangeNicknameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLChangeNicknameViewController.m; sourceTree = "<group>"; };
 		76C8C4E81F3938DA009B7080 /* PLHelpBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLHelpBackViewController.h; sourceTree = "<group>"; };
@@ -1802,6 +1805,8 @@
 		76D868911F3AEAF200B51DF4 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				76C669F01F3DA60600149D47 /* PLCommodityViewController.h */,
+				76C669F11F3DA60600149D47 /* PLCommodityViewController.m */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -2250,6 +2255,7 @@
 				7635BC2E1F33FF9A008C9448 /* XWCoolAnimator+XWPortal.m in Sources */,
 				7635BC101F33FF9A008C9448 /* LBXScanView.m in Sources */,
 				769EF8851F3316C100F0BD37 /* UIImageView+PLExtension.m in Sources */,
+				76C669F21F3DA60600149D47 /* PLCommodityViewController.m in Sources */,
 				76C669DD1F3D52AF00149D47 /* PLTopLineFootView.m in Sources */,
 				76B614001F383AC3001286AC /* PLMessageNoteCell.m in Sources */,
 				76C669E01F3D564F00149D47 /* PLExceedApplianceCell.m in Sources */,

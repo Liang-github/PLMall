@@ -88,7 +88,7 @@ static NSString *const PLFiltrateHeaderViewID = @"PLFiltrateHeaderView";
         CGFloat buttonX = i*buttonW;
         button.frame = CGRectMake(buttonX, buttonY, buttonW, buttonH);
         button.backgroundColor = (i == 0) ? self.collectionView.backgroundColor : [UIColor redColor];
-        [button addTarget:self action:@selector(bottomButtonClick) forControlEvents:UIControlEventTouchUpInside];
+        [button addTarget:self action:@selector(bottomButtonClick:) forControlEvents:UIControlEventTouchUpInside];
         [_filtrateConView addSubview:button];
     }
     
