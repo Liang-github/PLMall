@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PLFeatureChoseCell : UITableViewCell
+@interface PLFeatureChoseTopCell : UITableViewCell
 //取消点击回调
 @property (nonatomic, copy) dispatch_block_t crossButtonClickBlock;
 //商品价格

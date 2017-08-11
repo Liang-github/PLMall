@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class PLRecomendItem;
 @interface PLFootprintCell : UITableViewCell
-
+//足迹数据
+@property (nonatomic, strong) PLRecomendItem *footprintItem;
 @end

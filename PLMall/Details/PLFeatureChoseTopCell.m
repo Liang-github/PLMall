@@ -6,13 +6,13 @@
 //  Copyright © 2017年 PengLiang. All rights reserved.
 //
 
-#import "PLFeatureChoseCell.h"
+#import "PLFeatureChoseTopCell.h"
 
-@interface PLFeatureChoseCell ()
+@interface PLFeatureChoseTopCell ()
 //取消
 @property (nonatomic, strong) UIButton *crossButton;
 @end
-@implementation PLFeatureChoseCell
+@implementation PLFeatureChoseTopCell
 
 #pragma mark - Intial
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {

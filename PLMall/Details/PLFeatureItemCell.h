@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 @class PLFeatureList;
-@interface PLFeatureItemCell : UITableViewCell
+@interface PLFeatureItemCell : UICollectionViewCell
 //内容数据
 @property (nonatomic, copy) PLFeatureList *content;
 @end
