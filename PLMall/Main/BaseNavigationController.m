@@ -7,7 +7,7 @@
 //
 
 #import "BaseNavigationController.h"
-
+#import "GQGesVCTransition.h"
 @interface BaseNavigationController ()
 
 @end
@@ -20,7 +20,7 @@
 #pragma mark - LifeCycle
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [GQGesVCTransition validateGesBackWithType:GQGesVCTransitionTypePanWithPercentRight withRequestFailToLoopScrollView:YES]; //手势返回
 }
 #pragma mark - <初始化>
 + (void)setUpBase {

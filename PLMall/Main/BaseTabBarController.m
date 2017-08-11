@@ -24,22 +24,22 @@
 #pragma mark - 添加子控制器
 - (void)addChildViewController {
     NSArray *childArray = @[
-                            @{MallClassKey  : @"DCHandPickViewController",
+                            @{MallClassKey  : @"PLHandPickViewController",
                               MallTitleKey  : @"首页",
                               MallImgKey    : @"tabr_01_up",
                               MallSelImgKey : @"tabr_01_down"},
                             
-                            @{MallClassKey  : @"DCCommodityViewController",
+                            @{MallClassKey  : @"PLCommodityViewController",
                               MallTitleKey  : @"分类",
                               MallImgKey    : @"tabr_02_up",
                               MallSelImgKey : @"tabr_02_down"},
                             
-                            @{MallClassKey  : @"DCMyTrolleyViewController",
+                            @{MallClassKey  : @"PLMyTrolleyViewController",
                               MallTitleKey  : @"购物车",
                               MallImgKey    : @"tabr_04_up",
                               MallSelImgKey : @"tabr_04_down"},
                             
-                            @{MallClassKey  : @"DCPersonalCenterViewController",
+                            @{MallClassKey  : @"PLPersonalCenterViewController",
                               MallTitleKey  : @"我的",
                               MallImgKey    : @"tabr_05_up",
                               MallSelImgKey : @"tabr_05_down"},

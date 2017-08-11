@@ -63,8 +63,7 @@
                 [imagesBtn mas_makeConstraints:^(MASConstraintMaker *make) {
                     make.left.mas_equalTo(self.imageView.mas_right).offset(PLMargin);
                     make.centerY.mas_equalTo(self);
-                    make.right.mas_equalTo(self);
-                    make.height.mas_equalTo(self).multipliedBy(0.8);
+                    make.size.mas_equalTo(CGSizeMake(45, 15));
                 }];
                 [btn mas_makeConstraints:^(MASConstraintMaker *make) {
                     make.left.mas_equalTo(imagesBtn.mas_right).offset(PLMargin);

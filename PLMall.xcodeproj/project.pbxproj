@@ -140,6 +140,21 @@
 		76B614001F383AC3001286AC /* PLMessageNoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B613FF1F383AC3001286AC /* PLMessageNoteCell.m */; };
 		76B614031F383E04001286AC /* PLReceiverAddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B614021F383E04001286AC /* PLReceiverAddressCell.m */; };
 		76B614061F384619001286AC /* PLSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B614051F384619001286AC /* PLSettingCell.m */; };
+		76C669C21F3D3C6E00149D47 /* PLGoodsCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C669C11F3D3C6E00149D47 /* PLGoodsCommentViewController.m */; };
+		76C669C51F3D3CAF00149D47 /* PLGoodParticularsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C669C41F3D3CAF00149D47 /* PLGoodParticularsViewController.m */; };
+		76C669C81F3D3CED00149D47 /* PLGoodDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C669C71F3D3CED00149D47 /* PLGoodDetailViewController.m */; };
+		76C669CE1F3D4D8800149D47 /* PLCountDownHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C669CD1F3D4D8800149D47 /* PLCountDownHeadView.m */; };
+		76C669D11F3D4DCE00149D47 /* PLSlideshowHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C669D01F3D4DCE00149D47 /* PLSlideshowHeadView.m */; };
+		76C669D41F3D4DE800149D47 /* PLYouLikeHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C669D31F3D4DE800149D47 /* PLYouLikeHeadView.m */; };
+		76C669D71F3D528200149D47 /* PLOverFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C669D61F3D528200149D47 /* PLOverFootView.m */; };
+		76C669DA1F3D529B00149D47 /* PLScrollAdFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C669D91F3D529B00149D47 /* PLScrollAdFootView.m */; };
+		76C669DD1F3D52AF00149D47 /* PLTopLineFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C669DC1F3D52AF00149D47 /* PLTopLineFootView.m */; };
+		76C669E01F3D564F00149D47 /* PLExceedApplianceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C669DF1F3D564F00149D47 /* PLExceedApplianceCell.m */; };
+		76C669E31F3D566900149D47 /* PLGoodsCountDownCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C669E21F3D566900149D47 /* PLGoodsCountDownCell.m */; };
+		76C669E61F3D569D00149D47 /* PLGoodsGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C669E51F3D569D00149D47 /* PLGoodsGridCell.m */; };
+		76C669E91F3D56C100149D47 /* PLGoodsHandheldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C669E81F3D56C100149D47 /* PLGoodsHandheldCell.m */; };
+		76C669EC1F3D56DE00149D47 /* PLGoodsSurplusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C669EB1F3D56DE00149D47 /* PLGoodsSurplusCell.m */; };
+		76C669EF1F3D56F900149D47 /* PLGoodsYouLikeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C669EE1F3D56F900149D47 /* PLGoodsYouLikeCell.m */; };
 		76C8C4E71F393630009B7080 /* PLChangeNicknameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C8C4E61F393630009B7080 /* PLChangeNicknameViewController.m */; };
 		76C8C4EA1F3938DA009B7080 /* PLHelpBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C8C4E91F3938DA009B7080 /* PLHelpBackViewController.m */; };
 		76C8C4ED1F393F47009B7080 /* PLMyselfMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C8C4EC1F393F47009B7080 /* PLMyselfMessageViewController.m */; };
@@ -456,6 +471,36 @@
 		76B614021F383E04001286AC /* PLReceiverAddressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLReceiverAddressCell.m; sourceTree = "<group>"; };
 		76B614041F384619001286AC /* PLSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLSettingCell.h; sourceTree = "<group>"; };
 		76B614051F384619001286AC /* PLSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLSettingCell.m; sourceTree = "<group>"; };
+		76C669C01F3D3C6E00149D47 /* PLGoodsCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLGoodsCommentViewController.h; sourceTree = "<group>"; };
+		76C669C11F3D3C6E00149D47 /* PLGoodsCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLGoodsCommentViewController.m; sourceTree = "<group>"; };
+		76C669C31F3D3CAF00149D47 /* PLGoodParticularsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLGoodParticularsViewController.h; sourceTree = "<group>"; };
+		76C669C41F3D3CAF00149D47 /* PLGoodParticularsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLGoodParticularsViewController.m; sourceTree = "<group>"; };
+		76C669C61F3D3CED00149D47 /* PLGoodDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLGoodDetailViewController.h; sourceTree = "<group>"; };
+		76C669C71F3D3CED00149D47 /* PLGoodDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLGoodDetailViewController.m; sourceTree = "<group>"; };
+		76C669CC1F3D4D8800149D47 /* PLCountDownHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCountDownHeadView.h; sourceTree = "<group>"; };
+		76C669CD1F3D4D8800149D47 /* PLCountDownHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLCountDownHeadView.m; sourceTree = "<group>"; };
+		76C669CF1F3D4DCE00149D47 /* PLSlideshowHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLSlideshowHeadView.h; sourceTree = "<group>"; };
+		76C669D01F3D4DCE00149D47 /* PLSlideshowHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLSlideshowHeadView.m; sourceTree = "<group>"; };
+		76C669D21F3D4DE800149D47 /* PLYouLikeHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLYouLikeHeadView.h; sourceTree = "<group>"; };
+		76C669D31F3D4DE800149D47 /* PLYouLikeHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLYouLikeHeadView.m; sourceTree = "<group>"; };
+		76C669D51F3D528200149D47 /* PLOverFootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLOverFootView.h; sourceTree = "<group>"; };
+		76C669D61F3D528200149D47 /* PLOverFootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLOverFootView.m; sourceTree = "<group>"; };
+		76C669D81F3D529B00149D47 /* PLScrollAdFootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLScrollAdFootView.h; sourceTree = "<group>"; };
+		76C669D91F3D529B00149D47 /* PLScrollAdFootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLScrollAdFootView.m; sourceTree = "<group>"; };
+		76C669DB1F3D52AF00149D47 /* PLTopLineFootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLTopLineFootView.h; sourceTree = "<group>"; };
+		76C669DC1F3D52AF00149D47 /* PLTopLineFootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLTopLineFootView.m; sourceTree = "<group>"; };
+		76C669DE1F3D564F00149D47 /* PLExceedApplianceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLExceedApplianceCell.h; sourceTree = "<group>"; };
+		76C669DF1F3D564F00149D47 /* PLExceedApplianceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLExceedApplianceCell.m; sourceTree = "<group>"; };
+		76C669E11F3D566900149D47 /* PLGoodsCountDownCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLGoodsCountDownCell.h; sourceTree = "<group>"; };
+		76C669E21F3D566900149D47 /* PLGoodsCountDownCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLGoodsCountDownCell.m; sourceTree = "<group>"; };
+		76C669E41F3D569D00149D47 /* PLGoodsGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLGoodsGridCell.h; sourceTree = "<group>"; };
+		76C669E51F3D569D00149D47 /* PLGoodsGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLGoodsGridCell.m; sourceTree = "<group>"; };
+		76C669E71F3D56C100149D47 /* PLGoodsHandheldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLGoodsHandheldCell.h; sourceTree = "<group>"; };
+		76C669E81F3D56C100149D47 /* PLGoodsHandheldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLGoodsHandheldCell.m; sourceTree = "<group>"; };
+		76C669EA1F3D56DE00149D47 /* PLGoodsSurplusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLGoodsSurplusCell.h; sourceTree = "<group>"; };
+		76C669EB1F3D56DE00149D47 /* PLGoodsSurplusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLGoodsSurplusCell.m; sourceTree = "<group>"; };
+		76C669ED1F3D56F900149D47 /* PLGoodsYouLikeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLGoodsYouLikeCell.h; sourceTree = "<group>"; };
+		76C669EE1F3D56F900149D47 /* PLGoodsYouLikeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLGoodsYouLikeCell.m; sourceTree = "<group>"; };
 		76C8C4E51F393630009B7080 /* PLChangeNicknameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLChangeNicknameViewController.h; sourceTree = "<group>"; };
 		76C8C4E61F393630009B7080 /* PLChangeNicknameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLChangeNicknameViewController.m; sourceTree = "<group>"; };
 		76C8C4E81F3938DA009B7080 /* PLHelpBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLHelpBackViewController.h; sourceTree = "<group>"; };
@@ -1037,6 +1082,9 @@
 		7635BC5A1F344623008C9448 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				76C669CB1F3D4D5B00149D47 /* Cell */,
+				76C669CA1F3D4D5400149D47 /* Foot */,
+				76C669C91F3D4D4C00149D47 /* Head */,
 			);
 			name = CollectionView;
 			sourceTree = "<group>";
@@ -1264,6 +1312,8 @@
 		76ACD3691F3C1EBA00795014 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				76C669C61F3D3CED00149D47 /* PLGoodDetailViewController.h */,
+				76C669C71F3D3CED00149D47 /* PLGoodDetailViewController.m */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -1271,6 +1321,8 @@
 		76ACD36A1F3C1ECB00795014 /* GoodsParticulars */ = {
 			isa = PBXGroup;
 			children = (
+				76C669C31F3D3CAF00149D47 /* PLGoodParticularsViewController.h */,
+				76C669C41F3D3CAF00149D47 /* PLGoodParticularsViewController.m */,
 			);
 			name = GoodsParticulars;
 			sourceTree = "<group>";
@@ -1278,6 +1330,8 @@
 		76ACD36B1F3C1EF800795014 /* GoodsComments */ = {
 			isa = PBXGroup;
 			children = (
+				76C669C01F3D3C6E00149D47 /* PLGoodsCommentViewController.h */,
+				76C669C11F3D3C6E00149D47 /* PLGoodsCommentViewController.m */,
 			);
 			name = GoodsComments;
 			sourceTree = "<group>";
@@ -1334,6 +1388,51 @@
 				76B613F81F380FE3001286AC /* PLMySelfHeadView.xib */,
 			);
 			name = MainView;
+			sourceTree = "<group>";
+		};
+		76C669C91F3D4D4C00149D47 /* Head */ = {
+			isa = PBXGroup;
+			children = (
+				76C669CC1F3D4D8800149D47 /* PLCountDownHeadView.h */,
+				76C669CD1F3D4D8800149D47 /* PLCountDownHeadView.m */,
+				76C669CF1F3D4DCE00149D47 /* PLSlideshowHeadView.h */,
+				76C669D01F3D4DCE00149D47 /* PLSlideshowHeadView.m */,
+				76C669D21F3D4DE800149D47 /* PLYouLikeHeadView.h */,
+				76C669D31F3D4DE800149D47 /* PLYouLikeHeadView.m */,
+			);
+			name = Head;
+			sourceTree = "<group>";
+		};
+		76C669CA1F3D4D5400149D47 /* Foot */ = {
+			isa = PBXGroup;
+			children = (
+				76C669D51F3D528200149D47 /* PLOverFootView.h */,
+				76C669D61F3D528200149D47 /* PLOverFootView.m */,
+				76C669D81F3D529B00149D47 /* PLScrollAdFootView.h */,
+				76C669D91F3D529B00149D47 /* PLScrollAdFootView.m */,
+				76C669DB1F3D52AF00149D47 /* PLTopLineFootView.h */,
+				76C669DC1F3D52AF00149D47 /* PLTopLineFootView.m */,
+			);
+			name = Foot;
+			sourceTree = "<group>";
+		};
+		76C669CB1F3D4D5B00149D47 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				76C669DE1F3D564F00149D47 /* PLExceedApplianceCell.h */,
+				76C669DF1F3D564F00149D47 /* PLExceedApplianceCell.m */,
+				76C669E11F3D566900149D47 /* PLGoodsCountDownCell.h */,
+				76C669E21F3D566900149D47 /* PLGoodsCountDownCell.m */,
+				76C669E41F3D569D00149D47 /* PLGoodsGridCell.h */,
+				76C669E51F3D569D00149D47 /* PLGoodsGridCell.m */,
+				76C669E71F3D56C100149D47 /* PLGoodsHandheldCell.h */,
+				76C669E81F3D56C100149D47 /* PLGoodsHandheldCell.m */,
+				76C669EA1F3D56DE00149D47 /* PLGoodsSurplusCell.h */,
+				76C669EB1F3D56DE00149D47 /* PLGoodsSurplusCell.m */,
+				76C669ED1F3D56F900149D47 /* PLGoodsYouLikeCell.h */,
+				76C669EE1F3D56F900149D47 /* PLGoodsYouLikeCell.m */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 		76C8C4E31F3935F5009B7080 /* Main */ = {
@@ -2058,8 +2157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76C669C81F3D3CED00149D47 /* PLGoodDetailViewController.m in Sources */,
 				7635BC201F33FF9A008C9448 /* XWInteractiveTransition.m in Sources */,
 				7635BC181F33FF9A008C9448 /* ScanResultViewController.m in Sources */,
+				76C669E61F3D569D00149D47 /* PLGoodsGridCell.m in Sources */,
 				7635BC0B1F33FF9A008C9448 /* LBXScanLineAnimation.m in Sources */,
 				7635BC3B1F33FF9A008C9448 /* XWFilterAnimator.m in Sources */,
 				76C8C50A1F395416009B7080 /* PLFiltrateItem.m in Sources */,
@@ -2068,6 +2169,7 @@
 				76ACD3751F3C1F8B00795014 /* PLFillinOrderViewController.m in Sources */,
 				76B613EC1F3809E7001286AC /* PLFlowItem.m in Sources */,
 				7635BB721F33FEE1008C9448 /* PLLIRLButton.m in Sources */,
+				76C669E91F3D56C100149D47 /* PLGoodsHandheldCell.m in Sources */,
 				7635BC071F33FF9A008C9448 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				76B613E91F3808CF001286AC /* PLAddressItem.m in Sources */,
 				76D8685C1F3A8E9500B51DF4 /* PLCommentFooterCell.m in Sources */,
@@ -2082,14 +2184,19 @@
 				7635BC381F33FF9A008C9448 /* XWFilterAnimator+XWPageCurl.m in Sources */,
 				76B613F91F380FE3001286AC /* PLMySelfHeadView.m in Sources */,
 				76ACD3641F3BEB9B00795014 /* PLFootprintGoodsViewController.m in Sources */,
+				76C669EF1F3D56F900149D47 /* PLGoodsYouLikeCell.m in Sources */,
 				76B613FD1F3838FD001286AC /* PLHelpBackSquareCell.m in Sources */,
 				7635BC4B1F3413DA008C9448 /* PLSpeedy.m in Sources */,
 				769EF8881F3317DE00F0BD37 /* UIView+PLExtension.m in Sources */,
+				76C669C51F3D3CAF00149D47 /* PLGoodParticularsViewController.m in Sources */,
 				76C8C5431F399858009B7080 /* PLFeatureChoseTopCell.m in Sources */,
+				76C669E31F3D566900149D47 /* PLGoodsCountDownCell.m in Sources */,
 				7635BC161F33FF9A008C9448 /* LBXAlertAction.m in Sources */,
 				76D8687D1F3AD7FA00B51DF4 /* PLDetailServicetCell.m in Sources */,
+				76C669EC1F3D56DE00149D47 /* PLGoodsSurplusCell.m in Sources */,
 				76D868A51F3B099400B51DF4 /* PLFiltrateHeaderView.m in Sources */,
 				7635BC391F33FF9A008C9448 /* XWFilterAnimator+XWRipple.m in Sources */,
+				76C669CE1F3D4D8800149D47 /* PLCountDownHeadView.m in Sources */,
 				76ACD3581F3BDA3B00795014 /* PLBrandSortCell.m in Sources */,
 				769EF8821F33137900F0BD37 /* UIImage+PLCircle.m in Sources */,
 				7635BC5D1F344659008C9448 /* PLHoverNavView.m in Sources */,
@@ -2101,6 +2208,7 @@
 				7635BC0E1F33FF9A008C9448 /* LBXScanResult.m in Sources */,
 				76D868801F3AD97600B51DF4 /* PLDetailLikeCell.m in Sources */,
 				76D8687A1F3AD3E300B51DF4 /* PLDetailGoodReferralCell.m in Sources */,
+				76C669C21F3D3C6E00149D47 /* PLGoodsCommentViewController.m in Sources */,
 				7635BC2F1F33FF9A008C9448 /* XWCoolAnimator+XWScanning.m in Sources */,
 				7635BC3C1F33FF9A008C9448 /* XWFilterTransitionView.m in Sources */,
 				76D868711F3AC80C00B51DF4 /* PLShowTypeOneCell.m in Sources */,
@@ -2116,7 +2224,9 @@
 				7635BC211F33FF9A008C9448 /* XWTransitionAnimator.m in Sources */,
 				76D868941F3AEB1B00B51DF4 /* PLFiltrateViewController.m in Sources */,
 				7635BC2D1F33FF9A008C9448 /* XWCoolAnimator+XWPageFlip.m in Sources */,
+				76C669D41F3D4DE800149D47 /* PLYouLikeHeadView.m in Sources */,
 				7635BC171F33FF9A008C9448 /* MyQRViewController.m in Sources */,
+				76C669D11F3D4DCE00149D47 /* PLSlideshowHeadView.m in Sources */,
 				7635BC091F33FF9A008C9448 /* PPNumberButton.m in Sources */,
 				7635BC281F33FF9A008C9448 /* XWCircleSpreadAnimator.m in Sources */,
 				7635BC051F33FF9A008C9448 /* JKDBHelper.m in Sources */,
@@ -2124,6 +2234,7 @@
 				7635BC2B1F33FF9A008C9448 /* XWCoolAnimator+XWLines.m in Sources */,
 				7635BC291F33FF9A008C9448 /* XWCoolAnimator+XWExplode.m in Sources */,
 				7635BB661F33F66C008C9448 /* PLConsts.m in Sources */,
+				76C669D71F3D528200149D47 /* PLOverFootView.m in Sources */,
 				76C8C4ED1F393F47009B7080 /* PLMyselfMessageViewController.m in Sources */,
 				76B613E61F3807B9001286AC /* PLHandPickViewController.m in Sources */,
 				76D868891F3AE01F00B51DF4 /* PLDetailShufflingHeadView.m in Sources */,
@@ -2139,7 +2250,9 @@
 				7635BC2E1F33FF9A008C9448 /* XWCoolAnimator+XWPortal.m in Sources */,
 				7635BC101F33FF9A008C9448 /* LBXScanView.m in Sources */,
 				769EF8851F3316C100F0BD37 /* UIImageView+PLExtension.m in Sources */,
+				76C669DD1F3D52AF00149D47 /* PLTopLineFootView.m in Sources */,
 				76B614001F383AC3001286AC /* PLMessageNoteCell.m in Sources */,
+				76C669E01F3D564F00149D47 /* PLExceedApplianceCell.m in Sources */,
 				76B613E31F3806DB001286AC /* PLZuoWenRightButton.m in Sources */,
 				76C8C4E71F393630009B7080 /* PLChangeNicknameViewController.m in Sources */,
 				76D868621F3A8F1700B51DF4 /* PLCommentPicCell.m in Sources */,
@@ -2151,6 +2264,7 @@
 				7635BC081F33FF9A008C9448 /* GQGesVCTransition.m in Sources */,
 				76D868971F3AEDAD00B51DF4 /* PLColonInsView.m in Sources */,
 				7635BC2C1F33FF9A008C9448 /* XWCoolAnimator+XWMiddlePageFlip.m in Sources */,
+				76C669DA1F3D529B00149D47 /* PLScrollAdFootView.m in Sources */,
 				76D8689A1F3AEDCA00B51DF4 /* PLCustionHeadView.m in Sources */,
 				7635BC111F33FF9A008C9448 /* LBXScanViewController.m in Sources */,
 				7635BC251F33FF9A008C9448 /* SDBrowserImageView.m in Sources */,
