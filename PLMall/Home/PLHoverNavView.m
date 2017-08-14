@@ -72,7 +72,7 @@
         make.width.equalTo(@25);
     }];
     [_rightItemButton mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.centerX.equalTo(_leftItemButton.mas_centerY);
+        make.centerY.equalTo(_leftItemButton.mas_centerY);
         make.right.equalTo(self.mas_right).offset(-15);
         make.height.equalTo(@25);
         make.width.equalTo(@25);

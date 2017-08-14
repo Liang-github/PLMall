@@ -75,7 +75,7 @@
 #pragma mark - Setter Getter Methods
 - (void)layoutSubviews {
     [super layoutSubviews];
-    
+    [self addSubview:_titleLabel];
     [_titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.equalTo(self).offset(PLMargin);
         make.centerY.equalTo(self);

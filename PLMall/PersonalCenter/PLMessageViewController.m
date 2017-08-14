@@ -7,31 +7,63 @@
 //
 
 #import "PLMessageViewController.h"
+#import "PLMessageItem.h"
+#import "PLMessageNoteCell.h"
+#import <MJExtension.h>
+@interface PLMessageViewController ()<UITableViewDataSource, UITableViewDelegate>
 
-@interface PLMessageViewController ()
+@property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) NSDictionary *property;
+@property (nonatomic, strong) NSMutableArray <PLMessageItem *> *messageItems;
 
 @end
-
+static NSString *const PLMessageNoteCellID = @"PLMessageNoteCell";
 @implementation PLMessageViewController
-
+#pragma mark - LazyLoad
+- (UITableView *)tableView {
+    if (!_tableView) {
+        _tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
+        _tableView.frame = CGRectMake(0, 64, ScreenW, ScreenH - 64);
+        _tableView.dataSource = self;
+        _tableView.delegate = self;
+        _tableView.separatorStyle = 0;
+        [self.view addSubview:_tableView];
+        
+        [_tableView registerClass:[PLMessageNoteCell class] forCellReuseIdentifier:PLMessageNoteCellID];
+    }
+    return _tableView;
+}
+- (NSMutableArray <PLMessageItem *> *)messageItems {
+    if (!_messageItems) {
+        _messageItems = [NSMutableArray array];
+    }
+    return _messageItems;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self setUpTab];
+    [self setUpMessageData];
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)setUpTab {
+    self.automaticallyAdjustsScrollViewInsets = NO;
+    self.view.backgroundColor = PLBGColor;
+    self.tableView.backgroundColor = self.view.backgroundColor;
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)setUpMessageData {
+    _messageItems = [PLMessageItem mj_objectArrayWithFilename:@"MessageNote.plist"];
 }
-*/
-
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.messageItems.count;
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    PLMessageNoteCell *cell = [tableView dequeueReusableCellWithIdentifier:PLMessageNoteCellID forIndexPath:indexPath];
+    cell.messageItem = _messageItems[indexPath.row];
+    return cell;
+}
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 66;
+}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+}
 @end
